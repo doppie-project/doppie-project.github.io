@@ -11,5 +11,26 @@
         </div>
         <div id="header-time">Milano <span id="clock">--:--</span></div>
         <a href="{{ '/contatti' | relative_url }}"><button id="header-contact">Contact</button></a>
+
+        <!-- Mobile hamburger -->
+        <button id="menu-toggle" aria-label="Apri menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+        </button>
     </div>
 </header>
+
+<!-- Mobile overlay menu -->
+<div id="mobile-menu" aria-hidden="true">
+    <nav>
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <a href="{{ '/chi-siamo' | relative_url }}">Chi Siamo</a>
+        <a href="{{ '/mostre' | relative_url }}">Mostre</a>
+        <a href="{{ '/calendario' | relative_url }}">Calendario</a>
+        <a href="{{ '/contatti' | relative_url }}">Contatti</a>
+    </nav>
+    <div class="mobile-menu-footer">
+        <span>Milano / Como — IT</span>
+        <span id="clock-mobile">--:--</span>
+    </div>
+</div>

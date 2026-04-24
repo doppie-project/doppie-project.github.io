@@ -2,7 +2,7 @@
   Renders one artist block inside a mostra.
   Expects: include.artist, include.index, include.total
   Artist: name_first, name_last, origin, bio
-  Artist.works: image, title, year
+  Artist.works: image, title, year, description
 {%- endcomment -%}
 
 {%- assign works_count = include.artist.works.size -%}
@@ -38,7 +38,12 @@
                     <img src="{{ work.image | relative_url }}" alt="{{ work.title }}" loading="lazy">
                 {% endif %}
                 <figcaption>
-                    {% if work.title %}<em>{{ work.title }}</em>{% endif %}{% if work.title and work.year %}, {% endif %}{% if work.year %}{{ work.year }}{% endif %}
+                    <span class="work-title-line">
+                        {% if work.title %}<em>{{ work.title }}</em>{% endif %}{% if work.title and work.year %}, {% endif %}{% if work.year %}{{ work.year }}{% endif %}
+                    </span>
+                    {% if work.description %}
+                        <p class="work-description">{{ work.description }}</p>
+                    {% endif %}
                 </figcaption>
             </figure>
         {% endfor %}
