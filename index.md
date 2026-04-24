@@ -6,6 +6,7 @@ hero_top_center: Collettivo Artistico — Milano / Como
 hero_statement_line_1: Un collettivo che fa dialogare
 hero_statement_line_2: "<em>arte contemporanea</em> e <em>architettura</em>."
 hero_statement_line_3: Due luoghi, due artisti, due storie.
+scroll_cue_text: Scroll to explore
 manifesto_text: "Ogni mostra è <em>un incontro</em> — tra spazio e opera, <em>tra materia e vuoto</em>, tra chi abita e chi attraversa."
 ---
 
@@ -25,7 +26,7 @@ manifesto_text: "Ogni mostra è <em>un incontro</em> — tra spazio e opera, <em
             <span class="ln_"><span class="ln delay-5">{{ page.hero_statement_line_3 }}</span></span>
         </p>
         <div class="hero-action">
-            <span class="scroll-cue ln_"><span class="ln delay-5">Scroll to explore</span></span>
+            <span class="scroll-cue ln_"><span class="ln delay-5">{{ page.scroll_cue_text }}</span></span>
         </div>
     </div>
 </section>

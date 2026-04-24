@@ -69,11 +69,20 @@ h1, h2, h3, h4, h5 { font-family: var(--serif); font-weight: 400; letter-spacing
     align-items: center; gap: 2rem;
     z-index: 200; mix-blend-mode: difference;
 }
+
+/* Header logo SVG — small, inherits white via color (mix-blend-difference makes it readable) */
 #header-logo {
-    font-family: var(--serif); font-weight: 900;
-    font-size: 1.3rem; letter-spacing: -0.02em;
-    color: var(--white); line-height: 1;
+    display: inline-flex;
+    align-items: center;
+    color: var(--white);
+    line-height: 0;
 }
+#header-logo svg {
+    height: 28px;
+    width: auto;
+    display: block;
+}
+
 #header-right { display: flex; align-items: center; gap: 2rem; justify-content: flex-end; color: var(--white); }
 #header-menu { display: flex; gap: 1.8rem; }
 #header-menu a {
@@ -106,9 +115,10 @@ h1, h2, h3, h4, h5 { font-family: var(--serif); font-weight: 400; letter-spacing
     margin: 6vh auto 4vh;
     width: 92%; max-width: 1600px;
     display: block;
+    color: var(--black); /* the SVG uses currentColor */
 }
 .hero-logo svg {
-    width: 100%; height: auto; display: block; fill: var(--black);
+    width: 100%; height: auto; display: block;
     animation: logoFade 1.6s 1.4s cubic-bezier(.2,.9,.3,1) both;
 }
 @keyframes logoFade {
@@ -247,7 +257,6 @@ h1, h2, h3, h4, h5 { font-family: var(--serif); font-weight: 400; letter-spacing
 .mostra-meta span.italic { font-style: italic; color: var(--grey); }
 .mostra-desc { font-size: 1.05rem; line-height: 1.55; font-weight: 300; max-width: 56ch; }
 
-/* artists block */
 .mostra-artists { padding-top: 2rem; }
 .artists-label {
     color: var(--grey); margin-bottom: 3rem;
@@ -356,13 +365,20 @@ h1, h2, h3, h4, h5 { font-family: var(--serif); font-weight: 400; letter-spacing
 
 /* FOOTER */
 #footer { padding: 8vh 2.5vw 3vh; background: var(--black); color: var(--white); }
+
+/* Footer logo SVG — huge, white (inherits via color: white) */
 #footer-huge {
-    font-family: var(--serif); font-weight: 900;
-    font-size: clamp(5rem, 28vw, 30rem);
-    line-height: 0.85; letter-spacing: -0.08em;
-    margin-bottom: 6vh; overflow: hidden;
+    margin-bottom: 6vh;
+    color: var(--white);
+    line-height: 0;
+    overflow: hidden;
 }
-#footer-huge em { font-style: italic; font-weight: 400; color: var(--grey); }
+#footer-huge svg {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 #footer-meta {
     display: grid; grid-template-columns: repeat(3, 1fr);
     gap: 2rem; padding-top: 3rem; border-top: 1px solid #333;
@@ -377,6 +393,7 @@ h1, h2, h3, h4, h5 { font-family: var(--serif); font-weight: 400; letter-spacing
 /* MOBILE */
 @media (max-width: 900px) {
     #header { grid-template-columns: auto 1fr; padding: 1rem 5vw; }
+    #header-logo svg { height: 22px; }
     #header-menu, #header-time { display: none; }
     #hero { padding: 18vh 5vw 5vh; }
     .hero-top { grid-template-columns: 1fr; }
