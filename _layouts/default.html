@@ -7,25 +7,37 @@
     <meta name="description" content="{{ page.description | default: site.description }}">
     <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
     <link rel="icon" type="image/svg+xml" href="{{ '/logo.svg' | relative_url }}">
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-
+ 
 <div id="preloader"><div id="preloader-text">DOPPIE — MMXXVI</div></div>
 <div id="progress"></div>
-
+ 
 {% include nav.html %}
-
+ 
 <main>
     {{ content }}
 </main>
-
+ 
 {% include footer.html %}
-
+ 
 <script>
+// Netlify Identity — redirect to /admin/ after login or invite accept
+if (window.netlifyIdentity) {
+    window.netlifyIdentity.on('init', user => {
+        if (!user) {
+            window.netlifyIdentity.on('login', () => {
+                document.location.href = '/admin/';
+            });
+        }
+    });
+}
+ 
 document.addEventListener('DOMContentLoaded', () => {
     setTimeout(() => document.body.classList.add('loaded'), 1400);
 });
-
+ 
 function updateClock() {
     const now = new Date();
     const opts = { hour: '2-digit', minute: '2-digit', hour12: false, timeZone: 'Europe/Rome' };
@@ -34,13 +46,13 @@ function updateClock() {
 }
 updateClock();
 setInterval(updateClock, 30000);
-
+ 
 window.addEventListener('scroll', () => {
     const scrolled = (window.scrollY / (document.body.scrollHeight - window.innerHeight)) * 100;
     const bar = document.getElementById('progress');
     if (bar) bar.style.width = scrolled + '%';
 }, { passive: true });
-
+ 
 const obs = new IntersectionObserver(entries => {
     entries.forEach(e => {
         if (e.isIntersecting) {
@@ -51,9 +63,9 @@ const obs = new IntersectionObserver(entries => {
         }
     });
 }, { threshold: 0.15 });
-
+ 
 document.querySelectorAll('section').forEach(s => obs.observe(s));
 </script>
-
+ 
 </body>
 </html>
