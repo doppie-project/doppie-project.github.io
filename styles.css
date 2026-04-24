@@ -101,7 +101,7 @@ p {
 }
 
 .logo img {
-    height: 40px; /* Adjust based on actual PNG dimensions */
+    height: 40px; 
     width: auto;
 }
 
@@ -137,13 +137,12 @@ p {
 }
 
 /* =========================================
-   Asymmetrical Grid & Image Filters (The DOPPIE Look)
+   Asymmetrical Grid & Image Filters 
    ========================================= */
 .offset-down {
     transform: translateY(80px);
 }
 
-/* Forces everything to be B&W until hovered */
 .team-member img, .gallery-img {
     filter: grayscale(100%);
     transition: filter 0.4s ease, transform 0.4s ease;
@@ -206,7 +205,7 @@ p {
 }
 
 /* =========================================
-   Partecipa & Footer
+   Partecipa & Minimal Form
    ========================================= */
 .partecipa {
     background-color: #f9f9f9;
@@ -216,23 +215,89 @@ p {
     text-align: center;
 }
 
-.text-center p {
+.text-center p.subtitle {
     margin: 0 auto 3rem;
 }
 
-.iframe-container {
-    width: 100%;
-    max-width: 800px;
+.form-wrapper {
+    max-width: 600px;
     margin: 0 auto;
-    border: 1px solid #000;
-    background: #fff;
 }
 
-iframe {
+.minimal-form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 40px;
+    text-align: left;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.minimal-form label {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+}
+
+.minimal-form input,
+.minimal-form select,
+.minimal-form textarea {
     width: 100%;
-    height: 700px;
-    border: none;
-    display: block;
+    padding: 15px;
+    border: 1px solid #000;
+    background-color: transparent;
+    font-family: inherit;
+    font-size: 1rem;
+    outline: none;
+    transition: all 0.3s ease;
+    border-radius: 0; 
+}
+
+.minimal-form select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 15px center;
+    background-size: 15px;
+    cursor: pointer;
+}
+
+.minimal-form input:focus,
+.minimal-form select:focus,
+.minimal-form textarea:focus {
+    background-color: #ffffff;
+}
+
+.btn-black {
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+    padding: 15px 30px;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-black:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.btn-black:disabled {
+    background-color: #ccc;
+    border-color: #ccc;
+    cursor: not-allowed;
 }
 
 footer {
@@ -257,13 +322,13 @@ footer {
         width: 100%;
     }
     .offset-down {
-        transform: translateY(0); /* Removes offset on small screens */
+        transform: translateY(0); 
     }
     .exhibition-gallery {
         flex-direction: column;
     }
     .nav-links {
-        display: none; /* Add a hamburger menu later if needed */
+        display: none; 
     }
     h1 {
         font-size: 4rem;
