@@ -52,18 +52,28 @@ form_endpoint: "https://script.google.com/macros/s/AKfycbwSC36DQMW8Td1EG0a0ux0eu
         statusText.innerText = "Invio in corso...";
         statusText.style.color = "#7a7a7a";
         submitBtn.disabled = true;
-        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-            .then(() => {
-                statusText.innerText = "→ Grazie, la tua richiesta è stata inviata.";
-                statusText.style.color = "#000";
-                form.reset();
-                submitBtn.disabled = false;
-            })
-            .catch(() => {
-                statusText.innerText = "Errore. Riprova più tardi.";
-                statusText.style.color = "#c00";
-                submitBtn.disabled = false;
-            });
+
+        // Google Apps Script doesn't send CORS headers, so we use 'no-cors' mode.
+        // The request goes through (Apps Script runs, sheet gets the row), but we
+        // can't read the response. We treat any non-network error as success.
+        fetch(scriptURL, {
+            method: 'POST',
+            mode: 'no-cors',
+            body: new FormData(form)
+        })
+        .then(() => {
+            statusText.innerText = "→ Grazie, la tua richiesta è stata inviata.";
+            statusText.style.color = "#000";
+            form.reset();
+            submitBtn.disabled = false;
+        })
+        .catch((err) => {
+            // Only fires for actual network failures (offline, etc.)
+            console.error('Form submission error:', err);
+            statusText.innerText = "Errore di rete. Controlla la connessione e riprova.";
+            statusText.style.color = "#c00";
+            submitBtn.disabled = false;
+        });
     });
 })();
 </script>
