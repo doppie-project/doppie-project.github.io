@@ -16,7 +16,7 @@ collections:
     files:
 
       - label: "Homepage"
-        name: "home"
+        name: "homepage"
         file: "index.md"
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "default"}
