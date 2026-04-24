@@ -1,5 +1,7 @@
 <header id="header">
-    <a href="{{ '/' | relative_url }}" id="header-logo">DOPPIE<em style="font-style:italic;font-weight:400;">.</em></a>
+    <a href="{{ '/' | relative_url }}" id="header-logo" aria-label="DOPPIE Home">
+        {% include logo-svg.html %}
+    </a>
     <div></div>
     <div id="header-right">
         <div id="header-menu">
