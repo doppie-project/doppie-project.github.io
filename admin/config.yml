@@ -143,3 +143,4 @@ collections:
               - {label: "Immagine", name: "image", widget: "image"}
               - {label: "Titolo dell'opera", name: "title", widget: "string"}
               - {label: "Anno", name: "year", widget: "string", required: false}
+              - {label: "Descrizione dell'opera", name: "description", widget: "text", required: false}
