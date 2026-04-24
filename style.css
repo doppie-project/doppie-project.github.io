@@ -368,6 +368,20 @@ body.menu-open #mobile-menu {
     font-family: var(--serif); font-style: italic; text-transform: none;
     letter-spacing: 0; color: var(--black); font-size: 0.95rem;
 }
+.artist-works figcaption .work-title-line {
+    display: block;
+    margin-bottom: 0.4rem;
+}
+.artist-works figcaption .work-description {
+    font-family: var(--serif);
+    font-size: 0.9rem;
+    line-height: 1.45;
+    font-weight: 300;
+    color: var(--grey);
+    text-transform: none;
+    letter-spacing: 0;
+    max-width: 38ch;
+}
 .artist-works.single { grid-template-columns: 1fr; max-width: 520px; }
 .artist-works.three { grid-template-columns: repeat(3, 1fr); }
 .artist-works.four { grid-template-columns: repeat(2, 1fr); }
