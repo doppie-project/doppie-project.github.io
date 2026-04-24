@@ -1,0 +1,156 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# Editorial workflow off - saves publish directly to main
+publish_mode: simple
+
+# Media uploads
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+# Italian CMS interface
+locale: 'it'
+
+collections:
+
+  # ======================================================================
+  # SITE PAGES — edit text on each page
+  # ======================================================================
+  - name: "pages"
+    label: "Pagine del Sito"
+    files:
+
+      - label: "Homepage"
+        name: "home"
+        file: "index.md"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "default"}
+          - {label: "Permalink", name: "permalink", widget: "hidden", default: "/"}
+          - {label: "Hero — testo in alto a sinistra", name: "hero_top_left", widget: "string"}
+          - {label: "Hero — testo al centro", name: "hero_top_center", widget: "string"}
+          - {label: "Testo hero: riga 1", name: "hero_statement_line_1", widget: "string"}
+          - {label: "Testo hero: riga 2 (usa <em>...</em> per il corsivo)", name: "hero_statement_line_2", widget: "string"}
+          - {label: "Testo hero: riga 3", name: "hero_statement_line_3", widget: "string"}
+          - {label: "Testo manifesto (usa <em>...</em> per il corsivo)", name: "manifesto_text", widget: "text"}
+
+      - label: "Chi Siamo (testo intro)"
+        name: "chi-siamo"
+        file: "chi-siamo.md"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "default"}
+          - {label: "Title", name: "title", widget: "hidden", default: "Chi Siamo"}
+          - {label: "Permalink", name: "permalink", widget: "hidden", default: "/chi-siamo/"}
+          - {label: "Numero sezione", name: "section_num", widget: "string"}
+          - {label: "Titolo (prima parola)", name: "title_main", widget: "string"}
+          - {label: "Titolo (seconda parola)", name: "title_italic_line", widget: "string"}
+          - {label: "Testo introduttivo", name: "lead", widget: "text"}
+
+      - label: "Mostre (testo intro)"
+        name: "mostre-index"
+        file: "mostre.md"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "default"}
+          - {label: "Title", name: "title", widget: "hidden", default: "Mostre"}
+          - {label: "Permalink", name: "permalink", widget: "hidden", default: "/mostre/"}
+          - {label: "Numero sezione", name: "section_num", widget: "string"}
+          - {label: "Titolo", name: "title_main", widget: "string"}
+          - {label: "Testo introduttivo", name: "lead", widget: "text"}
+
+      - label: "Calendario (Coming Soon)"
+        name: "calendario"
+        file: "calendario.md"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "default"}
+          - {label: "Title", name: "title", widget: "hidden", default: "Calendario"}
+          - {label: "Permalink", name: "permalink", widget: "hidden", default: "/calendario/"}
+          - {label: "Numero sezione", name: "section_num", widget: "string"}
+          - {label: "Titolo principale", name: "heading_main", widget: "string"}
+          - {label: "Titolo corsivo", name: "heading_italic", widget: "string"}
+          - {label: "Sottotitolo", name: "subtext", widget: "text"}
+          - {label: "Testo del bottone", name: "cta_text", widget: "string"}
+
+      - label: "Contatti"
+        name: "contatti"
+        file: "contatti.md"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "default"}
+          - {label: "Title", name: "title", widget: "hidden", default: "Contatti"}
+          - {label: "Permalink", name: "permalink", widget: "hidden", default: "/contatti/"}
+          - {label: "Numero sezione", name: "section_num", widget: "string"}
+          - {label: "Titolo riga 1", name: "title_main_1", widget: "string"}
+          - {label: "Titolo riga 2", name: "title_main_2", widget: "string"}
+          - {label: "Titolo corsivo", name: "title_italic", widget: "string"}
+          - {label: "Testo introduttivo", name: "lead", widget: "text"}
+          - {label: "URL Google Sheets form", name: "form_endpoint", widget: "string"}
+
+  # ======================================================================
+  # TEAM — add/edit team members
+  # ======================================================================
+  - name: "team"
+    label: "Team (Chi Siamo)"
+    label_singular: "Membro"
+    folder: "_team"
+    create: true
+    slug: "{{slug}}"
+    identifier_field: name
+    summary: "{{name}} — {{role}}"
+    fields:
+      - {label: "Nome", name: "name", widget: "string", hint: "Usa \\n per andare a capo (es. 'Maria\\nRossi')"}
+      - {label: "Ruolo", name: "role", widget: "string", default: "Curatore"}
+      - {label: "Ordine (1-4)", name: "order", widget: "number", default: 1, min: 1, value_type: "int"}
+      - {label: "Foto", name: "photo", widget: "image"}
+      - {label: "Biografia breve", name: "bio", widget: "text", required: false}
+      - {label: "Email", name: "email", widget: "string", required: false}
+      - {label: "Link social (URL)", name: "social_link", widget: "string", required: false}
+      - {label: "Etichetta social", name: "social_label", widget: "string", required: false, default: "Instagram"}
+
+  # ======================================================================
+  # MOSTRE — the big one. Each mostra has nested artists, each artist has nested works.
+  # ======================================================================
+  - name: "mostre"
+    label: "Mostre"
+    label_singular: "Mostra"
+    folder: "_mostre"
+    create: true
+    slug: "{{slug}}"
+    identifier_field: title_main
+    summary: "{{title_main}} {{title_italic}} — {{year}}"
+    fields:
+      - {label: "Titolo (prima parte)", name: "title_main", widget: "string", hint: "Es. 'Sentimento'"}
+      - {label: "Titolo (parte in corsivo)", name: "title_italic", widget: "string", required: false, hint: "Es. 'carsico' — apparirà in corsivo grigio"}
+      - {label: "Anno", name: "year", widget: "number", value_type: "int"}
+      - {label: "Ordine di visualizzazione", name: "order", widget: "number", default: 1, value_type: "int", hint: "1 = prima mostra mostrata"}
+      - label: "Status"
+        name: "status"
+        widget: "select"
+        options: ["Concluso", "In corso", "Prossimo"]
+        default: "Prossimo"
+      - {label: "Luogo completo", name: "location", widget: "string", hint: "Es. 'Spazio Milesi, Milano'"}
+      - {label: "Luogo breve (per il tag)", name: "location_short", widget: "string", required: false, hint: "Es. 'Milano' — apparirà nel tag rotondo sull'immagine"}
+      - {label: "Curatela", name: "curatela", widget: "text", required: false, hint: "Un curatore per riga"}
+      - {label: "Immagine principale", name: "hero_image", widget: "image", required: false}
+      - {label: "Descrizione della mostra", name: "description", widget: "text", required: false}
+
+      - label: "Artisti"
+        name: "artists"
+        widget: "list"
+        required: false
+        label_singular: "Artista"
+        summary: "{{fields.name_first}} {{fields.name_last}}"
+        fields:
+          - {label: "Nome", name: "name_first", widget: "string"}
+          - {label: "Cognome", name: "name_last", widget: "string", required: false}
+          - {label: "Origine", name: "origin", widget: "string", required: false, hint: "Es. 'Milano, 1995'"}
+          - {label: "Biografia", name: "bio", widget: "text", required: false}
+
+          - label: "Opere"
+            name: "works"
+            widget: "list"
+            required: false
+            label_singular: "Opera"
+            summary: "{{fields.title}} ({{fields.year}})"
+            fields:
+              - {label: "Immagine", name: "image", widget: "image"}
+              - {label: "Titolo dell'opera", name: "title", widget: "string"}
+              - {label: "Anno", name: "year", widget: "string", required: false}

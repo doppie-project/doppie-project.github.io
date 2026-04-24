@@ -1,0 +1,70 @@
+{%- comment -%}
+  Renders one mostra (exhibition) with the approved design.
+  Expects: include.mostra (the mostra object) and include.index (1-based position).
+
+  Mostra fields used:
+    title_main     — main title (e.g. "Sentimento")
+    title_italic   — italic accented word (e.g. "carsico")
+    year           — 2025
+    status         — "Concluso" | "In corso" | "Prossimo"
+    location       — "Spazio Milesi, Milano"
+    location_short — "Milano"  (for the pill overlay)
+    curatela       — "Attilio A. Terragni, Chiara Smedile"
+    hero_image     — /images/uploads/mostra-hero.jpg
+    description    — long text
+    artists        — list of artist objects (see below)
+
+  Artist fields used:
+    name_first, name_last, origin, bio
+    works (list):  image, title, year
+{%- endcomment -%}
+
+<article class="mostra">
+    <div class="mostra-label mono">
+        <span>/ {{ include.index | prepend: '0' | slice: -2, 2 }} — {{ include.mostra.year }} — {{ include.mostra.status }}</span>
+        <span>{{ include.mostra.location }}</span>
+    </div>
+
+    <div class="mostra-hero">
+        {% if include.mostra.hero_image %}
+            <img src="{{ include.mostra.hero_image | relative_url }}" alt="{{ include.mostra.title_main }} {{ include.mostra.title_italic }}" loading="lazy">
+        {% else %}
+            <img src="https://images.unsplash.com/photo-1518998053901-5348d3961a04?q=80&w=2400&auto=format&fit=crop" alt="{{ include.mostra.title_main }}" loading="lazy">
+        {% endif %}
+        {% if include.mostra.location_short %}
+            <div class="mostra-visual-tag">{{ include.mostra.location_short }}</div>
+        {% endif %}
+    </div>
+
+    <div class="mostra-body">
+        <h3 class="mostra-title">
+            {{ include.mostra.title_main }}{% if include.mostra.title_italic %}<br><em>{{ include.mostra.title_italic }}</em>{% endif %}<em style="font-style:normal;color:var(--black);">.</em>
+        </h3>
+        <div class="mostra-body-right">
+            <div class="mostra-meta">
+                <div><span class="mono">Status</span><span>{{ include.mostra.status }}</span></div>
+                <div><span class="mono">Anno</span><span>{{ include.mostra.year }}</span></div>
+                <div><span class="mono">Luogo</span><span>{{ include.mostra.location }}</span></div>
+                {% if include.mostra.curatela %}
+                <div><span class="mono">Curatela</span><span class="italic">{{ include.mostra.curatela | newline_to_br }}</span></div>
+                {% endif %}
+            </div>
+            {% if include.mostra.description %}
+                <p class="mostra-desc">{{ include.mostra.description }}</p>
+            {% endif %}
+        </div>
+    </div>
+
+    {% if include.mostra.artists and include.mostra.artists.size > 0 %}
+    <div class="mostra-artists">
+        <h4 class="artists-label mono">
+            <span>— {% if include.mostra.artists.size == 1 %}Artista{% else %}Artisti{% endif %}</span>
+            <span>{{ include.mostra.artists.size | prepend: '0' | slice: -2, 2 }} / {{ include.mostra.artists.size | prepend: '0' | slice: -2, 2 }}</span>
+        </h4>
+
+        {% for artist in include.mostra.artists %}
+            {% include artist.html artist=artist index=forloop.index total=include.mostra.artists.size %}
+        {% endfor %}
+    </div>
+    {% endif %}
+</article>

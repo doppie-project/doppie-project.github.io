@@ -1,0 +1,47 @@
+{%- comment -%}
+  Renders one artist block inside a mostra.
+  Expects: include.artist, include.index, include.total
+  Artist: name_first, name_last, origin, bio
+  Artist.works: image, title, year
+{%- endcomment -%}
+
+{%- assign works_count = include.artist.works.size -%}
+{%- if works_count == 1 -%}
+    {%- assign works_class = 'single' -%}
+{%- elsif works_count == 3 -%}
+    {%- assign works_class = 'three' -%}
+{%- elsif works_count >= 4 -%}
+    {%- assign works_class = 'four' -%}
+{%- else -%}
+    {%- assign works_class = '' -%}
+{%- endif -%}
+
+<article class="artist">
+    <div class="artist-meta-col">
+        <span class="mono artist-num">/ {{ include.index | prepend: '0' | slice: -2, 2 }} / {{ include.total | prepend: '0' | slice: -2, 2 }}</span>
+        <h5 class="artist-name">
+            {% if include.artist.name_last %}{{ include.artist.name_first }}<br>{{ include.artist.name_last }}{% else %}{{ include.artist.name_first }}{% endif %}
+        </h5>
+        {% if include.artist.origin %}
+            <span class="artist-origin">{{ include.artist.origin }}</span>
+        {% endif %}
+        {% if include.artist.bio %}
+            <p class="artist-bio">{{ include.artist.bio }}</p>
+        {% endif %}
+    </div>
+
+    {% if include.artist.works and works_count > 0 %}
+    <div class="artist-works {{ works_class }}">
+        {% for work in include.artist.works %}
+            <figure>
+                {% if work.image %}
+                    <img src="{{ work.image | relative_url }}" alt="{{ work.title }}" loading="lazy">
+                {% endif %}
+                <figcaption>
+                    {% if work.title %}<em>{{ work.title }}</em>{% endif %}{% if work.title and work.year %}, {% endif %}{% if work.year %}{{ work.year }}{% endif %}
+                </figcaption>
+            </figure>
+        {% endfor %}
+    </div>
+    {% endif %}
+</article>

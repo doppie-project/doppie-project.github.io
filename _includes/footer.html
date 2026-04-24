@@ -1,0 +1,17 @@
+<footer id="footer">
+    <div id="footer-huge">Doppie<em>.</em></div>
+    <div id="footer-meta">
+        <div>
+            <span>© {{ 'now' | date: "%Y" | prepend: 'MM' | replace: 'MM2024','MMXXIV' | replace: 'MM2025','MMXXV' | replace: 'MM2026','MMXXVI' | replace: 'MM2027','MMXXVII' }}</span><br>
+            <span>Milano / Como — IT</span>
+        </div>
+        <div>
+            <span>Follow</span><br>
+            <a href="{{ site.instagram | default: 'https://www.instagram.com/doppie.project/' }}" target="_blank" rel="noopener"><strong>Instagram ↗</strong></a>
+        </div>
+        <div>
+            <span>Contact</span><br>
+            <a href="mailto:{{ site.email | default: 'hello@doppie.it' }}"><strong>{{ site.email | default: 'hello@doppie.it' }} ↗</strong></a>
+        </div>
+    </div>
+</footer>

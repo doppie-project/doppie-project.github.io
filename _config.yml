@@ -1,0 +1,29 @@
+title: DOPPIE Project
+description: Due luoghi. Due artisti. Due storie.
+url: ""
+baseurl: ""
+
+collections:
+  team:
+    output: false
+  mostre:
+    output: false
+
+defaults:
+  - scope: { path: "", type: team }
+    values: { layout: null }
+  - scope: { path: "", type: mostre }
+    values: { layout: null }
+
+plugins:
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules
+  - vendor
+  - .sass-cache
+  - .jekyll-cache
+  - preview.html
