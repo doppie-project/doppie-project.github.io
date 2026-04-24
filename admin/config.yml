@@ -2,21 +2,15 @@ backend:
   name: git-gateway
   branch: main
 
-# Editorial workflow off - saves publish directly to main
 publish_mode: simple
 
-# Media uploads
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
 
-# Italian CMS interface
 locale: 'it'
 
 collections:
 
-  # ======================================================================
-  # SITE PAGES — edit text on each page
-  # ======================================================================
   - name: "pages"
     label: "Pagine del Sito"
     files:
@@ -32,6 +26,7 @@ collections:
           - {label: "Testo hero: riga 1", name: "hero_statement_line_1", widget: "string"}
           - {label: "Testo hero: riga 2 (usa <em>...</em> per il corsivo)", name: "hero_statement_line_2", widget: "string"}
           - {label: "Testo hero: riga 3", name: "hero_statement_line_3", widget: "string"}
+          - {label: "Testo 'Scroll to explore'", name: "scroll_cue_text", widget: "string"}
           - {label: "Testo manifesto (usa <em>...</em> per il corsivo)", name: "manifesto_text", widget: "text"}
 
       - label: "Chi Siamo (testo intro)"
@@ -84,9 +79,6 @@ collections:
           - {label: "Testo introduttivo", name: "lead", widget: "text"}
           - {label: "URL Google Sheets form", name: "form_endpoint", widget: "string"}
 
-  # ======================================================================
-  # TEAM — add/edit team members
-  # ======================================================================
   - name: "team"
     label: "Team (Chi Siamo)"
     label_singular: "Membro"
@@ -105,9 +97,6 @@ collections:
       - {label: "Link social (URL)", name: "social_link", widget: "string", required: false}
       - {label: "Etichetta social", name: "social_label", widget: "string", required: false, default: "Instagram"}
 
-  # ======================================================================
-  # MOSTRE — the big one. Each mostra has nested artists, each artist has nested works.
-  # ======================================================================
   - name: "mostre"
     label: "Mostre"
     label_singular: "Mostra"
