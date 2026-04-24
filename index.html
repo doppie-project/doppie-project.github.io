@@ -32,6 +32,7 @@
                 <h2>Il Progetto</h2>
                 <p>Un'esplorazione del significato di abitare, forma e architettura. DOPPIE crea un dialogo visivo e spaziale mettendo in connessione artisti contemporanei con spazi architettonici unici.</p>
             </div>
+            
             <div class="team-grid">
                 <div class="team-member offset-down">
                     <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=2400&auto=format&fit=crop" alt="Team Member 1">
@@ -80,11 +81,35 @@
 
     <section id="partecipa" class="section partecipa">
         <div class="container text-center">
-            <h2>Richiedi Preview</h2>
-            <p class="subtitle">Aggiungi i tuoi dettagli per partecipare alle prossime iniziative.</p>
-            
-            <div class="iframe-container">
-                <iframe src="https://doppie-project.github.io/richiedi-preview/" title="DOPPIE Preview Form"></iframe>
+            <div class="form-wrapper">
+                <h2>Mettiamoci in Contatto</h2>
+                <p class="subtitle">Seleziona un'opzione qui sotto per richiedere un portfolio, collaborare o supportare il progetto DOPPIE.</p>
+                
+                <form id="doppie-form" class="minimal-form">
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" placeholder="la.tua@email.com" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="reason">Motivo del contatto *</label>
+                        <select id="reason" name="reason" required>
+                            <option value="" disabled selected>Seleziona un'opzione...</option>
+                            <option value="Richiedi Preview / Portfolio">Richiedi Preview / Portfolio</option>
+                            <option value="Voglio Donare / Supportare">Voglio Donare / Supportare</option>
+                            <option value="Voglio Collaborare">Voglio Collaborare</option>
+                            <option value="Altro / Discussione">Altro / Discussione</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Messaggio (Opzionale)</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Scrivi qui i tuoi dettagli..."></textarea>
+                    </div>
+                    
+                    <button type="submit" id="submit-btn" class="btn-black">INVIA RICHIESTA</button>
+                    <p id="form-status" style="margin-top: 15px; font-size: 0.9rem; font-weight: bold;"></p>
+                </form>
             </div>
         </div>
     </section>
@@ -93,5 +118,34 @@
         <p>&copy; 2026 DOPPIE Project. Tutti i diritti riservati.</p>
     </footer>
 
+    <script>
+        const form = document.getElementById('doppie-form');
+        const statusText = document.getElementById('form-status');
+        const submitBtn = document.getElementById('submit-btn');
+
+        // Your provided Google Script Web App URL
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwSC36DQMW8Td1EG0a0ux0eupHyDkhTyZwunf_zklj6S39xD4K5MbooiQ5Ygc3y2oIo/exec';
+
+        form.addEventListener('submit', e => {
+            e.preventDefault();
+            
+            statusText.innerText = "Invio in corso...";
+            statusText.style.color = "#666";
+            submitBtn.disabled = true;
+            
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    statusText.innerText = "Grazie! La tua richiesta è stata inviata con successo.";
+                    statusText.style.color = "green";
+                    form.reset();
+                    submitBtn.disabled = false;
+                })
+                .catch(error => {
+                    statusText.innerText = "C'è stato un errore. Riprova più tardi.";
+                    statusText.style.color = "red";
+                    submitBtn.disabled = false;
+                });
+        });
+    </script>
 </body>
 </html>
