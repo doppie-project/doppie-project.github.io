@@ -10,20 +10,19 @@
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
- 
+
 <div id="preloader"><div id="preloader-text">DOPPIE — MMXXVI</div></div>
 <div id="progress"></div>
- 
+
 {% include nav.html %}
- 
+
 <main>
     {{ content }}
 </main>
- 
+
 {% include footer.html %}
- 
+
 <script>
-// Netlify Identity — redirect to /admin/ after login or invite accept
 if (window.netlifyIdentity) {
     window.netlifyIdentity.on('init', user => {
         if (!user) {
@@ -33,26 +32,47 @@ if (window.netlifyIdentity) {
         }
     });
 }
- 
+
 document.addEventListener('DOMContentLoaded', () => {
     setTimeout(() => document.body.classList.add('loaded'), 1400);
 });
- 
+
+// Mobile menu toggle
+const menuToggle = document.getElementById('menu-toggle');
+const mobileMenu = document.getElementById('mobile-menu');
+if (menuToggle && mobileMenu) {
+    menuToggle.addEventListener('click', () => {
+        const isOpen = document.body.classList.toggle('menu-open');
+        menuToggle.setAttribute('aria-expanded', isOpen);
+        mobileMenu.setAttribute('aria-hidden', !isOpen);
+    });
+    mobileMenu.querySelectorAll('a').forEach(a => {
+        a.addEventListener('click', () => {
+            document.body.classList.remove('menu-open');
+            menuToggle.setAttribute('aria-expanded', 'false');
+            mobileMenu.setAttribute('aria-hidden', 'true');
+        });
+    });
+}
+
 function updateClock() {
     const now = new Date();
     const opts = { hour: '2-digit', minute: '2-digit', hour12: false, timeZone: 'Europe/Rome' };
+    const timeStr = now.toLocaleTimeString('it-IT', opts);
     const el = document.getElementById('clock');
-    if (el) el.textContent = now.toLocaleTimeString('it-IT', opts);
+    if (el) el.textContent = timeStr;
+    const elMobile = document.getElementById('clock-mobile');
+    if (elMobile) elMobile.textContent = timeStr;
 }
 updateClock();
 setInterval(updateClock, 30000);
- 
+
 window.addEventListener('scroll', () => {
     const scrolled = (window.scrollY / (document.body.scrollHeight - window.innerHeight)) * 100;
     const bar = document.getElementById('progress');
     if (bar) bar.style.width = scrolled + '%';
 }, { passive: true });
- 
+
 const obs = new IntersectionObserver(entries => {
     entries.forEach(e => {
         if (e.isIntersecting) {
@@ -63,9 +83,9 @@ const obs = new IntersectionObserver(entries => {
         }
     });
 }, { threshold: 0.15 });
- 
+
 document.querySelectorAll('section').forEach(s => obs.observe(s));
 </script>
- 
+
 </body>
 </html>
