@@ -37,9 +37,13 @@ artists:
   - name_first: Jacopo
     name_last: Martinotti
     origin: Milano, 1995
-    bio: Il suo lavoro indaga la relazione tra memoria, immagine e materia. Una
-      ricerca che trasforma il passato in soglia, facendo della traccia visiva
-      un atto presente.
+    bio: Jacopo Martinotti (Milano, 1995) vive e lavora a Milano. Dopo la laurea
+      magistrale in Arti Visive e Studi Curatoriali alla NABA (2020), è docente
+      presso NABA dal 2022. La sua ricerca indaga la memoria come materia
+      plasmabile, attraverso gesti e presenze corporee che evocano resti,
+      fragilità e dimensioni monumentali. Ha esposto in spazi e istituzioni come
+      Palazzo delle Esposizioni (Roma), Palazzo Collicola (Spoleto), Palazzo
+      Reale (Milano), MAXXI (Roma) e Museo del Novecento (Milano).
     works:
       - image: https://images.unsplash.com/photo-1578321272176-b7bbc0679853?q=80&w=1600&auto=format&fit=crop
         title: Eclisse
@@ -50,9 +54,14 @@ artists:
   - name_first: Giorgio
     name_last: Mattia
     origin: Frosinone, 1997
-    bio: Riflette sul peso della memoria partendo dalle rovine industriali — in
-      particolare la Falck di Sesto San Giovanni. Ferro, argilla cruda e carta
-      si combinano in una luce critica sulla storia industriale.
+    bio: Giorgio Mattia (1997) vive e lavora a Milano. Si è formato in Pittura e
+      Arti Visive e successivamente in Arti Visive e Studi Curatoriali presso
+      NABA, Milano. La sua ricerca intreccia pratiche d’archivio, iconografie
+      esoterico-sacrali e riflessioni sul linguaggio, contrapponendo alle grandi
+      narrazioni storiche e religiose un’“iconografia dell’incertezza”. Ha
+      presentato mostre personali e collettive in spazi e istituzioni come
+      Fondazione Leonesio, Triennale Milano, Fondazione Pini, Galleria San
+      Fedele e Palazzo Monti.
     works:
       - image: https://images.unsplash.com/photo-1582719471384-894fbb16e074?q=80&w=1600&auto=format&fit=crop
         title: S.T.G.M. (Sic Transit Gloria Mundi)
