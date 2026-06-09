@@ -1,21 +1,45 @@
 ---
-title_main: L'ombra
-title_italic: che resta
+title_main: L'ombra che resta
+title_italic: ""
 year: 2025
 order: 1
 status: Concluso
 location: Spazio Milesi, Milano
 location_short: Milano
 curatela: |
-    Attilio A. Terragni
-    Chiara Smedile
+  Attilio A. Terragni
+  Chiara Smedile
 hero_image: https://images.unsplash.com/photo-1518998053901-5348d3961a04?q=80&w=2400&auto=format&fit=crop
-description: "La prima esposizione del progetto DOPPIE. Le opere di Jacopo Martinotti e Giorgio Mattia si intrecciano tra loro e con lo spazio stesso: la memoria prende forma — un corpo fatto di materia, luci e immagini che si espande attraverso la galleria. Ogni opera diventa una soglia, un passaggio, una superficie sensibile in cui la memoria si rigenera come immagine artistica."
+description: >-
+  La memoria non custodisce il passato come un archivio ordinato, ma si
+  manifesta come un insieme di apparizioni che emergono e scompaiono, aprendo
+  varchi nell’immaginazione. Così la rovina appare come resto di promesse non
+  mantenute. Le opere di Jacopo Martinotti e Giorgio Mattia abitano questa
+  frattura, nello spazio sospeso in cui memoria e immaginazione si inseguono.
+  Entrambi guardano a un medesimo tempo e luogo, gli sviluppi della città di
+  Milano durante gli anni del Novecento, quando architettura, industria e
+  spettacolo disegnavano nuovi orizzonti di visione e potere. Entrambi si
+  concentrano su contesti vissuti e attraversati, restituendo nelle loro
+  ricerche riflessioni profonde sul paesaggio e sulle sue trasformazioni.
+
+
+  Nei lavori di Jacopo Martinotti il corpo appare come un astro errante, sospeso tra apparizione e dissoluzione. In *Planetario*, la luce ruota e avvolge, come a tracciare un cosmo interiore che trascina lo spettatore in un vorticoso ipnotismo; in *Eclisse*, l’ombra si consuma fino a cancellare ogni certezza visiva. La sua ricerca intreccia architetture e pellicole fragili, membrane sottili in cui la figura umana si frantuma e ricompone, diventando traccia luminosa e residuo evanescente. La monumentalità del Planetario Ulrico Hoepli, con la sua volta celeste mappata fotograficamente, si trasforma in un atlante provvisorio, dove una sola presenza umana — una testa che diventa piccolo globo — devia le coordinate del cosmo. Allo stesso modo, la polvere di marmo de *L’Eclisse* restituisce il corpo perduto di un film come una costellazione cancellata, la traccia di una storia dimenticata che tenta di riscriversi nello spazio. Ogni opera è passaggio tra rivelazione e sparizione: lo spazio si trasforma in paesaggio emotivo e la memoria in presenza intermittente, fragile e luminosa. È in questa soglia, fatta di ombre e bagliori, che il ricordo assume la consistenza di materia cosmica, capace di aprire varchi poetici nello sguardo dello spettatore, come costellazioni provvisorie che si accendono e si spengono nel buio.
+
+
+  Se per Martinotti il corpo si muove come un astro, per Giorgio Mattia la memoria prende forma nella rovina industriale: le sue installazioni nascono dall’indagine sull’industria siderurgica e in particolare sulle acciaierie Falck di Sesto San Giovanni, che già prima del fascismo si preparavano a plasmare il volto della modernità. Negli anni Trenta, quel paesaggio di fonderie e torri divenne simbolo di una grandezza tanto protettiva quanto oppressiva, un orizzonte di ferro in cui la promessa di progresso conviveva con l’ombra del controllo. In *S.T.G.M. (Sic Transit Gloria Mundi)* un’immagine d’archivio riemerge come un fantasma luminoso da una torre che custodisce insieme memoria e oblio: così passa la gloria del mondo. L’opera si muove nello spazio ambiguo tra monumentalità e dissoluzione, restituendo la presenza operaia come pulsazione effimera, battito che riappare e si spegne tra le rovine del sogno industriale. Attraverso il dialogo tra materia e proiezione, Mattia trasforma acciaio e luce in un linguaggio sospeso, in cui la memoria collettiva si mostra fragile e intensa. La sua ricerca non si limita a evocare un passato ormai inerte, ma tenta di riattivarlo come esperienza percettiva e politica. Così le rovine diventano non solo reliquie di un’epoca, ma dispositivi critici che interrogano il presente.
+
+
+  Nell’incontro tra i due artisti, la mostra si apre come un paesaggio stratificato: corpi che si consumano accanto a strutture che minano l’autorità del visivo; apparizioni fragili che convivono con rovine industriali; memorie che non si chiudono mai in una forma compiuta, ma si offrono come soglie aperte, crepe luminose, costellazioni provvisorie.
+
+
+  di Chiara Smedile
 artists:
   - name_first: Jacopo
     name_last: Martinotti
-    origin: "Milano, 1995"
-    bio: "Il suo lavoro indaga la relazione tra memoria, immagine e materia. Una ricerca che trasforma il passato in soglia, facendo della traccia visiva un atto presente."
+    origin: Milano, 1995
+    bio: Il suo lavoro indaga la relazione tra memoria, immagine e materia. Una
+      ricerca che trasforma il passato in soglia, facendo della traccia visiva
+      un atto presente.
     works:
       - image: https://images.unsplash.com/photo-1578321272176-b7bbc0679853?q=80&w=1600&auto=format&fit=crop
         title: Eclisse
@@ -25,8 +49,10 @@ artists:
         year: 2024
   - name_first: Giorgio
     name_last: Mattia
-    origin: "Frosinone, 1997"
-    bio: "Riflette sul peso della memoria partendo dalle rovine industriali — in particolare la Falck di Sesto San Giovanni. Ferro, argilla cruda e carta si combinano in una luce critica sulla storia industriale."
+    origin: Frosinone, 1997
+    bio: Riflette sul peso della memoria partendo dalle rovine industriali — in
+      particolare la Falck di Sesto San Giovanni. Ferro, argilla cruda e carta
+      si combinano in una luce critica sulla storia industriale.
     works:
       - image: https://images.unsplash.com/photo-1582719471384-894fbb16e074?q=80&w=1600&auto=format&fit=crop
         title: S.T.G.M. (Sic Transit Gloria Mundi)
