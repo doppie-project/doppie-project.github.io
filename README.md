@@ -1,162 +1,166 @@
 # DOPPIE Project — Website
 
-The website for **DOPPIE**, a collettivo artistico between Milano and Como.
-Live at: [doppie-website.netlify.app](https://doppie-website.netlify.app)
+Sito ufficiale di **DOPPIE**, collettivo artistico tra Milano e Como.
+Live su: [doppie-website.netlify.app](https://doppie-website.netlify.app)
 
 ---
 
-## 👋 For the team (no coding required)
+# 🍕🇮🇹 PER IL TEAM — INIZIA DA QUI
 
-Hi! If you're here to add a new mostra, edit your bio, or change text on the site, you **don't need to read any code**. Skip to one of these sections:
+> **Questa è la tua sezione.** Tutto quello che devi sapere per modificare il sito è qui sotto. **Non leggere la parte in inglese più in basso — è solo per l'admin tecnico.**
 
-- [How to log in](#how-to-log-in)
-- [How to add a new mostra](#how-to-add-a-new-mostra)
-- [How to edit your team member profile](#how-to-edit-your-team-member-profile)
-- [How to edit text on a page](#how-to-edit-text-on-a-page)
-- [Things to know before publishing](#things-to-know-before-publishing)
-- [If something breaks](#if-something-breaks)
+Ciao! Se sei qui per aggiungere una mostra, modificare la tua bio o cambiare un testo del sito, **non serve sapere niente di codice**. Vai direttamente alla sezione che ti serve:
 
-## 💻 For developers
-
-- [Tech stack](#tech-stack)
-- [File structure](#file-structure)
-- [Making code changes](#making-code-changes)
-- [Deployment](#deployment)
+- [Come accedere al CMS](#-come-accedere-al-cms)
+- [Come aggiungere una nuova mostra](#-come-aggiungere-una-nuova-mostra)
+- [Come modificare il tuo profilo del team](#-come-modificare-il-tuo-profilo-del-team)
+- [Come modificare i testi delle pagine](#-come-modificare-i-testi-delle-pagine)
+- [Cose da sapere prima di pubblicare](#-cose-da-sapere-prima-di-pubblicare)
+- [Se qualcosa non funziona](#-se-qualcosa-non-funziona)
 
 ---
 
-## How to log in
+## 🔑 Come accedere al CMS
 
-1. Go to [doppie-website.netlify.app/admin/](https://doppie-website.netlify.app/admin/)
-2. Click **Login with Netlify Identity**
-3. Use the email you were invited with + your password
+1. Vai su [doppie-website.netlify.app/admin/](https://doppie-website.netlify.app/admin/)
+2. Clicca **Login with Netlify Identity**
+3. Usa l'email a cui hai ricevuto l'invito + la tua password
 
-If you forgot your password: click **Forgot password?** on the login screen.
+**Hai dimenticato la password?** Clicca **Forgot password?** sulla schermata di login.
 
-If you were never invited: ask whoever runs the site to invite you via Netlify.
+**Non hai mai ricevuto l'invito?** Chiedi all'admin del sito di invitarti tramite Netlify.
 
 ---
 
-## How to add a new mostra
+## 🖼️ Come aggiungere una nuova mostra
 
-Once logged in, you'll see a sidebar with three sections:
-- **Pagine del Sito** — editable text on each page
-- **Team (Chi Siamo)** — team member profiles
-- **Mostre** — all the exhibitions
+Una volta fatto il login, vedrai una barra laterale con queste sezioni:
+- **Pagine del Sito** — testi modificabili di ogni pagina
+- **Team (Chi Siamo)** — profili dei membri del team
+- **Mostre** — tutte le mostre
 
-### Add a mostra, step by step
+### Passo per passo
 
-1. Click **Mostre** in the sidebar → **New Mostra** (top right)
-2. Fill out the fields:
+1. Clicca **Mostre** nella sidebar → **New Mostra** (in alto a destra)
+2. Compila i campi:
 
-| Field | What to write | Example |
+| Campo | Cosa scrivere | Esempio |
 |---|---|---|
-| **Titolo (prima parte)** | Main title word | `Sentimento` |
-| **Titolo (parte in corsivo)** | The second word — will show in grey italic | `carsico` |
-| **Anno** | Year of the mostra | `2025` |
-| **Ordine di visualizzazione** | 1 = appears first on the page. Newer mostre usually go first | `1` |
-| **Status** | Dropdown | `Concluso`, `In corso`, or `Prossimo` |
-| **Luogo completo** | Full venue address | `Spazio Milesi, Milano` |
-| **Luogo breve** | Just the city — appears as a tag on the image | `Milano` |
-| **Curatela** | Curator names, one per line | `Attilio A. Terragni` |
-| **Immagine principale** | The big header image. Click Upload and pick a photo | (upload) |
-| **Descrizione** | Long-form paragraph about the mostra | (free text) |
+| **Titolo (prima parte)** | Prima parola del titolo | `Sentimento` |
+| **Titolo (parte in corsivo)** | Seconda parola — apparirà in corsivo grigio | `carsico` |
+| **Anno** | Anno della mostra | `2025` |
+| **Ordine di visualizzazione** | 1 = prima mostra mostrata. Le mostre più nuove di solito vanno per prime | `1` |
+| **Status** | Menu a tendina | `Concluso`, `In corso`, o `Prossimo` |
+| **Luogo completo** | Indirizzo completo della sede | `Spazio Milesi, Milano` |
+| **Luogo breve** | Solo la città — apparirà come tag sull'immagine | `Milano` |
+| **Curatela** | Nomi dei curatori, uno per riga | `Attilio A. Terragni` |
+| **Immagine principale** | L'immagine grande di copertina. Click Upload e scegli una foto | (upload) |
+| **Descrizione** | Paragrafo lungo sulla mostra | (testo libero) |
 
-3. Then scroll to **Artisti** → click **Add Artista**. For each artist, fill in:
-   - **Nome** and **Cognome**
-   - **Origine** (e.g. `Milano, 1995`)
-   - **Biografia** (short paragraph)
-4. Still inside the artist → click **Add Opera** for each work. For each work:
-   - **Immagine** → upload the artwork photo
-   - **Titolo dell'opera** (e.g. `Eclisse`)
-   - **Anno** (e.g. `2020`)
-5. Click **Save** as many times as you want while you're working — nothing goes live yet.
-6. When it's all ready, click **Publish** (top right).
+3. Scorri a **Artisti** → clicca **Add Artista** per ogni artista. Compila:
+   - **Nome** e **Cognome**
+   - **Origine** (es. `Milano, 1995`)
+   - **Biografia** (paragrafo breve)
+4. Dentro l'artista → clicca **Add Opera** per ogni opera:
+   - **Immagine** → carica la foto dell'opera
+   - **Titolo dell'opera** (es. `Eclisse`)
+   - **Anno** (es. `2020`)
+   - **Descrizione dell'opera** (facoltativa)
+5. Clicca **Save** quante volte vuoi mentre stai lavorando — niente va online ancora.
+6. Quando è tutto pronto, clicca **Publish** (in alto a destra).
 
-The mostra will appear on the live site within about 1 minute.
+La mostra apparirà sul sito live entro circa 1 minuto. 🍕
 
-### Image tips
-- Hero image works best at a wide ratio (long/horizontal photos look better than square)
-- Artwork images work best upright (portrait orientation) — all will be cropped to that shape
-- You can upload as many works per artist as you want. The layout adjusts automatically:
-  - 1 work = big single image
-  - 2 works = side-by-side
-  - 3 works = three across
-  - 4+ works = 2x2 grid
+### Suggerimenti per le immagini
 
-### Tips for mostre that have more than one artist
+- L'immagine di copertina della mostra funziona meglio in formato **orizzontale** (lunga/larga, non quadrata)
+- Le immagini delle opere funzionano meglio in formato **verticale** (più alte che larghe) — saranno tutte ritagliate in quella forma
+- Puoi caricare quante opere vuoi per artista. Il layout si adatta automaticamente:
+  - 1 opera = una grande immagine singola
+  - 2 opere = affiancate
+  - 3 opere = tre in fila
+  - 4+ opere = griglia 2x2
 
-Just click **Add Artista** again after filling in the first one. Each artist becomes their own block with their own works. No limit on the number of artists per mostra.
+### Più artisti nella stessa mostra
 
----
-
-## How to edit your team member profile
-
-1. Log in → click **Team (Chi Siamo)** in the sidebar
-2. Click on your name in the list
-3. Edit:
-   - **Nome** — your name (use `\n` if you want a line break between first and last)
-   - **Ruolo** — your role (e.g. `Curatore`)
-   - **Ordine** — your position in the grid (1 to 4)
-   - **Foto** — upload a new photo if you want
-   - **Biografia** — a short bio
-   - **Email** — public contact email
-   - **Link social** — your Instagram URL (or other)
-4. Click **Publish**.
-
-You can add a 5th member if needed — just hit **New Membro** at the top right.
+Clicca **Add Artista** di nuovo dopo aver compilato il primo. Ogni artista diventa il suo blocco con le sue opere. Nessun limite al numero di artisti per mostra.
 
 ---
 
-## How to edit text on a page
+## 👤 Come modificare il tuo profilo del team
 
-All the text on pages like Homepage, Chi Siamo intro, Mostre intro, etc. lives under **Pagine del Sito**.
+1. Login → clicca **Team (Chi Siamo)** nella sidebar
+2. Clicca sul tuo nome nella lista
+3. Modifica:
+   - **Nome** — il tuo nome (usa `\n` se vuoi andare a capo tra nome e cognome)
+   - **Ruolo** — il tuo ruolo (es. `Curatore`)
+   - **Ordine** — la tua posizione nella griglia (da 1 a 4)
+   - **Foto** — carica una nuova foto se vuoi
+   - **Biografia** — bio breve
+   - **Email** — email pubblica di contatto
+   - **Link social** — il tuo URL Instagram (o altro)
+4. Clicca **Publish**.
 
-1. Click **Pagine del Sito** → pick which page you want to edit
-2. Edit the fields (each field is labeled in Italian so it's clear what shows up where)
+Si può aggiungere un quinto membro se serve — basta cliccare **New Membro** in alto a destra.
+
+---
+
+## ✏️ Come modificare i testi delle pagine
+
+Tutto il testo delle pagine (Homepage, intro Chi Siamo, intro Mostre, ecc.) si trova sotto **Pagine del Sito**.
+
+1. Clicca **Pagine del Sito** → scegli quale pagina vuoi modificare
+2. Modifica i campi (ogni campo è etichettato in italiano per essere chiaro)
 3. **Publish**
 
-### Making parts of a sentence italic
-You can put `<em>words</em>` around any words you want to appear in grey italic.
+### Per rendere parti di una frase in corsivo
 
-Example:
-- Type this: `Un collettivo di <em>arte contemporanea</em>.`
-- Shows up as: *Un collettivo di* ***arte contemporanea****.* (with the italic part in grey)
+Metti `<em>parole</em>` attorno alle parole che vuoi far apparire in corsivo grigio.
+
+Esempio:
+- Scrivi: `Un collettivo di <em>arte contemporanea</em>.`
+- Apparirà come: *Un collettivo di* ***arte contemporanea****.* (con la parte in corsivo in grigio)
 
 ---
 
-## Things to know before publishing
+## ⚠️ Cose da sapere prima di pubblicare
 
 ### "Save" vs "Publish"
-- **Save** — keeps your draft safe, nothing is live yet. You can save as many times as you want.
-- **Save and request review** / **Publish now** — actually makes the change live on the website.
+- **Save** — salva la tua bozza, non va online niente. Puoi salvare quante volte vuoi.
+- **Publish now** — pubblica davvero sul sito live.
 
-Only **Publish** triggers the site to rebuild. So write freely, save often, publish once.
+Solo **Publish** fa ricostruire il sito. Quindi scrivi liberamente, salva spesso, pubblica una volta sola alla fine. 🍕
 
-### It takes about 1 minute to go live
-After you click Publish, the site automatically rebuilds. Wait ~60 seconds, then refresh the live site.
+### Ci vuole circa 1 minuto per andare online
+Dopo aver cliccato Publish, il sito si ricostruisce automaticamente. Aspetta ~60 secondi, poi ricarica il sito live.
 
-### Images are limited in size
-If you upload a huge photo (like, 10MB+), it'll still work but might slow down the site. Aim for photos under 2MB. You can resize images before uploading using something like [tinypng.com](https://tinypng.com) or [squoosh.app](https://squoosh.app).
+### Le immagini hanno un limite di dimensione
+Se carichi una foto enorme (tipo 10MB+), funzionerà ancora ma potrebbe rallentare il sito. Punta a foto sotto i 2MB. Puoi ridimensionare le immagini prima di caricarle usando [tinypng.com](https://tinypng.com) o [squoosh.app](https://squoosh.app).
 
 ---
 
-## If something breaks
+## 🆘 Se qualcosa non funziona
 
-| Problem | What to try |
+| Problema | Cosa provare |
 |---|---|
-| Can't log in | Make sure you're at `/admin/` (with the slash). Try "Forgot password?". If still stuck, ask the admin to re-invite you. |
-| Published but nothing changed on the site | Wait 60 seconds and refresh. If still nothing, check if the build failed (ask the admin to check Netlify). |
-| Uploaded an image but it looks wrong | Check the image orientation. For artwork: portrait (taller than wide). For mostra heroes: landscape (wider than tall). |
-| Accidentally deleted a mostra | Ask the admin — the old version is recoverable from GitHub's history. |
-| "Editorial workflow" confused me | Your edits go through a review state. Click through until you see a **Publish now** button. That's the one that goes live. |
-| Form submissions not appearing in the sheet | This is a connection between the site and Google Sheets — ask the admin to check the Apps Script. |
+| Non riesco a fare login | Assicurati di essere su `/admin/` (con lo slash). Prova "Forgot password?". Se sei ancora bloccato, chiedi all'admin di reinvitarti. |
+| Ho pubblicato ma sul sito non è cambiato niente | Aspetta 60 secondi e ricarica. Se ancora niente, chiedi all'admin di controllare Netlify. |
+| Ho caricato un'immagine ma sembra sbagliata | Controlla l'orientamento. Per le opere: verticale (più alta che larga). Per le copertine delle mostre: orizzontale (più larga che alta). |
+| Ho cancellato una mostra per sbaglio | Chiedi all'admin — la versione vecchia si può recuperare dalla cronologia di GitHub. |
+| Le submissions del form di contatto non arrivano nel foglio | Il collegamento tra il sito e Google Sheets è gestito tramite Apps Script — chiedi all'admin di controllare. |
 
 ---
 
+# ⚠️ STOP — Da qui in poi è solo per l'admin tecnico
+
+> **Tu del team, hai finito.** Tutto quello che devi sapere è sopra. La parte in inglese qui sotto è documentazione per chi gestisce il codice del sito — non ti serve. Buon lavoro! 🍕🇮🇹
+
+---
 ---
 
-# Developer Documentation
+# Developer Documentation 🔧
+
+**This entire section is for the site admin only. If you're a team member just editing content via the CMS — you don't need anything down here. Stop reading.**
 
 ## Tech stack
 
@@ -186,15 +190,7 @@ doppie-project.github.io/
 │   └── artist.html          # Auto-replicating template for ANY artist block
 │
 ├── _team/                   # Collection: team member profiles
-│   ├── 01-member.md
-│   ├── 02-member.md
-│   ├── 03-member.md
-│   └── 04-member.md
-│
 ├── _mostre/                 # Collection: exhibitions
-│   ├── 01-lombra-che-resta.md
-│   ├── 02-sentimento-carsico.md
-│   └── 03-prossima-mostra.md
 │
 ├── index.md                 # Homepage (hero + manifesto)
 ├── chi-siamo.md             # Team page (loops _team/)
@@ -206,20 +202,19 @@ doppie-project.github.io/
 │   ├── config.yml           # Decap CMS field definitions
 │   └── index.html           # CMS entry point
 │
-└── images/
-    └── uploads/             # Where CMS-uploaded media lives
+└── images/uploads/          # CMS-uploaded media
 ```
 
 ### Why the structure is the way it is
 
 - **`_mostre/` and `_team/` are Jekyll collections**, defined in `_config.yml`. Each `.md` file in the folder becomes one exhibition/member. The CMS creates/edits these files when users add content.
-- **`_includes/mostra.html`** is the single template that renders every exhibition — the magic is that `mostre.md` loops `site.mostre | sort: 'order'` and passes each to this partial. Adding a new mostra = new `.md` file in `_mostre/`, no template changes needed.
+- **`_includes/mostra.html`** is the single template that renders every exhibition — `mostre.md` loops `site.mostre | sort: 'order'` and passes each to this partial. Adding a new mostra = new `.md` file in `_mostre/`, no template changes needed.
 - **`_includes/artist.html`** is called from inside `mostra.html` for each artist in the `artists:` list of a mostra's frontmatter. Infinitely nestable.
 - The `.single`, `.three`, `.four` classes on `.artist-works` adjust the grid based on how many works an artist has.
 
 ## Making code changes
 
-**⚠️ Do not commit directly to `main`.** Every commit to `main` triggers a production Netlify rebuild, which costs credits on the free plan.
+**⚠️ Do not commit directly to `main`.** Every commit to `main` triggers a production Netlify rebuild, which costs credits on the free plan (15 credits per deploy, 300 credits/month).
 
 ### Workflow
 
@@ -239,7 +234,11 @@ doppie-project.github.io/
 
 ### Editorial workflow for CMS
 
-`admin/config.yml` has `publish_mode: editorial_workflow`, which means CMS saves create PR branches instead of direct commits. Each content edit = one PR. When the editor clicks **Publish**, the PR merges to main → 1 deploy.
+`admin/config.yml` uses `publish_mode: editorial_workflow`, which means CMS saves create PR branches instead of direct commits. Each content edit = one PR. When the editor clicks **Publish**, the PR merges to main → 1 deploy.
+
+**Known issue**: if a CMS entry seems to be stuck with a "SHA must identify a commit or a tree" error, the cause is typically a stale state reference. Fixes:
+1. Rename the entry's `name:` field in `admin/config.yml` (forces Decap to treat it as a fresh entry).
+2. As a fallback, disable + re-enable Git Gateway in Netlify Identity settings.
 
 ### Local development
 
