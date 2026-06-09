@@ -1,0 +1,5 @@
+# Skip Netlify builds when only README.md changed.
+# Netlify skips the build when this command exits 0 (no diff outside README);
+# any real content change (mostre, pages, css) exits 1 and triggers a build.
+[build]
+  ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- . ':!README.md'"
