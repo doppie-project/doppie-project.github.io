@@ -1,11 +1,11 @@
 # DOPPIE Project — Website
 
-Sito ufficiale di **DOPPIE**, collettivo artistico tra Milano e Como.
+Sito ufficiale di **DOPPIE**, collettivo artistico.
 Live su: [doppie-website.netlify.app](https://doppie-website.netlify.app)
 
 ---
 
-# 🍕🇮🇹 PER IL TEAM — INIZIA DA QUI
+# 🍕PER IL TEAM — INIZIA DA QUI
 
 > **Questa è la tua sezione.** Tutto quello che devi sapere per modificare il sito è qui sotto. **Non leggere la parte in inglese più in basso — è solo per l'admin tecnico.**
 
@@ -153,7 +153,7 @@ Se carichi una foto enorme (tipo 10MB+), funzionerà ancora ma potrebbe rallenta
 
 # ⚠️ STOP — Da qui in poi è solo per l'admin tecnico
 
-> **Tu del team, hai finito.** Tutto quello che devi sapere è sopra. La parte in inglese qui sotto è documentazione per chi gestisce il codice del sito — non ti serve. Buon lavoro! 🍕🇮🇹
+> **Tu del team, hai finito.** Tutto quello che devi sapere è sopra. La parte in inglese qui sotto è documentazione per chi gestisce il codice del sito — non ti serve. Buon lavoro! 🍕
 
 ---
 ---
