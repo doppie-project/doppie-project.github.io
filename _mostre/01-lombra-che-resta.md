@@ -9,7 +9,7 @@ location_short: Milano
 curatela: |
   Attilio A. Terragni
   Chiara Smedile
-hero_image: https://images.unsplash.com/photo-1518998053901-5348d3961a04?q=80&w=2400&auto=format&fit=crop
+hero_image: /images/uploads/banner_lombracheresta.jpg
 description: >-
   La memoria non custodisce il passato come un archivio ordinato, ma si
   manifesta come un insieme di apparizioni che emergono e scompaiono, aprendo
@@ -45,7 +45,7 @@ artists:
       Palazzo delle Esposizioni (Roma), Palazzo Collicola (Spoleto), Palazzo
       Reale (Milano), MAXXI (Roma) e Museo del Novecento (Milano).
     works:
-      - image: https://images.unsplash.com/photo-1578321272176-b7bbc0679853?q=80&w=1600&auto=format&fit=crop
+      - image: /images/uploads/img_0131.jpg
         title: Eclisse
         year: 2020
       - image: https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?q=80&w=1600&auto=format&fit=crop
@@ -63,10 +63,10 @@ artists:
       Fondazione Leonesio, Triennale Milano, Fondazione Pini, Galleria San
       Fedele e Palazzo Monti.
     works:
-      - image: https://images.unsplash.com/photo-1582719471384-894fbb16e074?q=80&w=1600&auto=format&fit=crop
+      - image: /images/uploads/nuova4.jpg
         title: S.T.G.M. (Sic Transit Gloria Mundi)
         year: 2025
-      - image: https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=1600&auto=format&fit=crop
+      - image: /images/uploads/nuova.jpg
         title: S.T.G.M. II
         year: 2025
 ---
