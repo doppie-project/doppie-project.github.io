@@ -48,7 +48,7 @@ artists:
       - image: /images/uploads/img_0131.jpg
         title: Eclisse
         year: 2020
-      - image: https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?q=80&w=1600&auto=format&fit=crop
+      - image: /images/uploads/dettaglio-1-.tif
         title: Senza titolo
         year: 2024
   - name_first: Giorgio
@@ -66,7 +66,16 @@ artists:
       - image: /images/uploads/nuova4.jpg
         title: S.T.G.M. (Sic Transit Gloria Mundi)
         year: 2025
-      - image: /images/uploads/nuova.jpg
+      - image: /images/uploads/_dsc0037-1-.tif
         title: S.T.G.M. II
         year: 2025
+        description: |-
+          Inchiostro su carta millimetrata
+          30 x 42 cm
+      - description: |-
+          Grafite su carta, cartoncino vegetale, spago e aghi da cucito.
+          11 x 25 x 15 cm
+        title: Viandante V
+        year: "2023"
+        image: /images/uploads/nuova4.jpg
 ---
