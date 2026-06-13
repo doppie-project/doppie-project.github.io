@@ -7,7 +7,7 @@ status: Concluso
 location: Como, Nuovocomum
 location_short: Como
 curatela: Anna Laura Piana
-hero_image: https://images.unsplash.com/photo-1541961017774-22349e4a1262?q=80&w=2400&auto=format&fit=crop
+hero_image: /images/uploads/progetto-senza-titolo.jpg
 description: >
   Nella pratica di Giuseppe Terragni l’architettura non è uno spazio freddo e
   immobile ma un dispositivo che muta in relazione all’ambiente e a chi lo
