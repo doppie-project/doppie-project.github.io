@@ -36,7 +36,7 @@ description: >
 artists:
   - name_first: Edoardo
     name_last: Bonacina
-    origin: Como
+    origin: Como, 2001
     works:
       - title: SUBTERREUS
         year: "2022"
@@ -106,4 +106,88 @@ artists:
       2024
 
       Premio Raccont’Arti – Fotografia Contemporanea, menzione d’onore
+  - name_first: Camilla
+    name_last: Cardia
+    origin: Cagliari, 1994
+    bio: >
+      Camilla Cardia (Cagliari, 1994) si è laureata in fotografia in fotografia
+      presso l’École nationale supérieure Louis-Lumière, Francia risiede ora a
+      Parigi. La sua pratica si serve principalmente dell’immagine fissa e in
+      movimento per indagare la percezione dello spazio e la relazione che
+      occupanti instaurano con esso. La sua ricerca si avvale di pratiche di
+      educazione popolare affermando il processo artistico come fatto ludico e
+      conoscitivo. Collabora come direttrice della fotografia in film
+      documentari di ricerca sullo spazio urbano e sul paesaggio.
+
+
+      SCREENING
+
+
+      2024
+
+      PANORAMAS
+
+      Proiezione,Micro-Folie musée, Hirson, Francia
+
+      La montagne ça ne grandit pas
+
+      Esposizione collettiva, École nationale supérieure d’architecture de Clermont-Ferrand, Francia
+
+
+      2023
+
+      Toujours jamais pareil, encore - Pierre Mabille
+
+      Esposizione, Les incroyables histoires des Tarterêts, Galleria d’arte Corbeil-Essonnes, Francia
+
+
+      2022
+
+      Les incroyables histoires des Tartêrets
+
+      Proiezione Cine-club Hospitalet de Llobregat, Barcellona, Spagna
+
+      Les traces du vivant
+
+      Biennale di architettura e paesaggio di Versailles, École nationale supérieure d’Architecture de Versailles, Francia
+
+      Le vol
+
+      Installazione nell’esposizione Promenade loin(g)taine - Les artistes étrangers au fil du Loing Château-Musée de Nemours, Francia
+
+
+      2021
+
+      Seddas de Misa
+
+      Festival Image de Ville, Marsiglia, Francia
+
+
+      2019
+
+      Seddas de Misa
+
+      Sardinia Film Festival, Sardegna, Italia
+
+      Cent Ans
+
+      Festival International du Cinéma Ethnographique Jean Rouch, Parigi, Francia
+    works:
+      - title: Les incroyables histoires des Tarterêts
+        year: "2022"
+        description: >-
+          Animazione, suono, 7’
+
+
+          Les Tarterêts è un quartiere di edilizia popolare nella regione Île-de-France, descritto dalla stampa come teatro di accesi conflitti sociali, in particolare negli anni ‘90. Il quartiere è stato oggetto di un primo ANRU (Agenzia Nazionale per il Rinnovamento Urbano) negli anni 2000, che ha portato, in dieci anni, alla demolizione di 13 torri di edilizia residenziale pubblica, la ricollocazione di parte della popolazione e la soppressione di diversi luoghi di ritrovo. Oggi è in corso un secondo ANRU che prevede la demolizione di altre 4 torri.
+
+          Il cortometraggio-animato mostra un ritratto del quartiere attraverso l’esperienza di giovani abitanti tra gli 11 e i 12 anni, che raccontano delle storie ancorate alla loro esperienza e alla loro immaginazione. Qui Les Tarterêts è un quartiere che è una città, dove lo spazio pubblico è un parco giochi e il luogo dell’incontro con “l’altro”. Il documento filmico è un archivio di notizie, finzioni, ricordi e speranze dei giovani abitanti dei Tarterêts.
+
+          I disegni e le voci spontanee de_ protagonist_, ci danno accesso a una ricca articolazione di esperienze che testimoniano le avventure di una generazione confrontata con i temi della migrazione, della discriminazione (subita o inflitta) e del rinnovamento urbano all’indomani di una pandemia che ha segnato profondamente le nostre menti e il nostro linguaggio.
+
+
+          Residenza di creazione con l’Istituto Léopold Sédar
+
+          Senghor, Corbeil-Essonnes. Con il supporto dell’Agence Nationale pour la cohesion des territoires, la regione Île-de-France, il dipartimento dell’Essonne, la città di Corbeil-Essonnes.
+        image: /images/uploads/screenshot-2026-06-13-180645.png
 ---
