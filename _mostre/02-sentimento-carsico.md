@@ -80,4 +80,12 @@ artists:
         description: |-
           MDF, legno, pittura acrilica.
           20 x 18 x 7 cm
+      - title: Mormorio
+        year: "2024"
+        description: |-
+          Stampa su alluminio, cornice in alluminio.
+          31,5 x 21,5 cm
+
+          1\2
+        image: /images/uploads/_dsc0335.jpg
 ---
