@@ -39,5 +39,33 @@ artists:
     works:
       - image: /images/uploads/11.jpg
         title: Allodoliere
-        year: ""
+        year: "2020"
+        description: |-
+          Legno, specchio, corda.
+          185 x 40,5 x 3,5 cm
+      - image: /images/uploads/7l9a0814.jpg
+        title: Lounge
+        year: "2024"
+        description: |-
+          Ottone acidato, ferro.
+          80 x 137 x 67 cm
+          106 x 164 x 66 cm
+      - image: /images/uploads/7l9a0944.jpg
+        title: Infanzia Estiva
+        year: "2023"
+        description: |-
+          Poliuretano, rami, foglie, plastica, cera, resina, legno.
+          h 150 cm, diametro 14 cm
+      - image: /images/uploads/_dsc0283.jpg
+        title: Senza titolo (Orchidea)
+        year: "2024"
+        description: |-
+          MDF, legno, pittura acrilica.
+          15 x 30 x 3 cm
+      - image: /images/uploads/616a8732.jpg
+        title: Senza Titolo (Spine)
+        year: "2023"
+        description: |-
+          Stampa su carta.
+          28 x 38 x 5 cm
 ---
