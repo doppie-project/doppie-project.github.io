@@ -37,7 +37,7 @@ artists:
 
       I suoi lavori sono stati esposti in diversi contesti, tra i quali: Fondazione La Quadriennale, Roma; Lunetta11, Mombarcaro; Renata Fabbri, Milano; PAV, Torino, Vin Vin, Vienna, The Address, Brescia; Art Noble, Milano; Fondazione Antonio Ratti, Como; Triennale, Milano; Sonnenstube, Lugano; Fondazione Pini, Milano. Dal 2017 fa parte di Altalena, un progetto di ricerca indipendente. Nel 2018 fonda il progetto Residenza La Fornace invitando differenti artisti a entrare in contatto e a confrontarsi con la cascina dove è cresciuto e dove tutt’ora porta avanti la sua ricerca artistica.
     works:
-      - image: https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=2400&auto=format&fit=crop
-        title: Titolo opera
-        year: 2024
+      - image: /images/uploads/11.jpg
+        title: Allodoliere
+        year: ""
 ---
