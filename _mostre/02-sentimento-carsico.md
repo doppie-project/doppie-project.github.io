@@ -1,6 +1,6 @@
 ---
-title_main: Sentimento
-title_italic: carsico
+title_main: Sentimento Carsico
+title_italic: ""
 year: 2025
 order: 1
 status: Concluso
