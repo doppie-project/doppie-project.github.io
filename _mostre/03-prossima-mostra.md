@@ -30,9 +30,6 @@ description: >
 
 
   Le opere di Cardia e Bonacina ci ricordano che ogni città è un organismo vivo, fatto non solo di cemento e geometrie, ma di corpi, desideri, conflitti e possibilità. Ed è proprio nella capacità di rendere visibile ciò che solitamente resta nascosto che l’arte può ancora aprire uno spazio di trasformazione collettiva. 
-
-
-  di Anna Laura Piana
 artists:
   - name_first: Edoardo
     name_last: Bonacina
