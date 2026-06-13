@@ -46,11 +46,17 @@ artists:
       Reale (Milano), MAXXI (Roma) e Museo del Novecento (Milano).
     works:
       - image: /images/uploads/img_0131.jpg
+        title: Planetario
+        year: "2024"
+        description: |-
+          Fotografia b\n serie di 8
+          52 x 38 cm
+      - image: /images/uploads/opening_lombracheresta_spaziomilesi_251023-62.jpg
         title: Eclisse
-        year: 2020
-      - image: /images/uploads/dettaglio-1-.tif
-        title: Senza titolo
-        year: 2024
+        year: "2020"
+        description: |-
+          Installazione, polvere di marmo nero ebano.
+          Dimensioni variabili.
   - name_first: Giorgio
     name_last: Mattia
     origin: Frosinone, 1997
@@ -63,19 +69,22 @@ artists:
       Fondazione Leonesio, Triennale Milano, Fondazione Pini, Galleria San
       Fedele e Palazzo Monti.
     works:
-      - image: /images/uploads/nuova4.jpg
+      - image: /images/uploads/mostra_lombracheresta_spaziomilesi_251023-04.jpg
         title: S.T.G.M. (Sic Transit Gloria Mundi)
         year: 2025
-      - image: /images/uploads/_dsc0037-1-.tif
+        description: |-
+          Ferro, carta lucido, argilla cruda.
+          L25 cm H 230 cm
+      - image: /images/uploads/opening_lombracheresta_spaziomilesi_251023-46.jpg
         title: S.T.G.M. II
         year: 2025
         description: |-
-          Inchiostro su carta millimetrata
-          30 x 42 cm
+          Grafite su carta, puntello telescopico.
+          Dimensioni variabili.
       - description: |-
           Grafite su carta, cartoncino vegetale, spago e aghi da cucito.
           11 x 25 x 15 cm
         title: Viandante V
         year: "2023"
-        image: /images/uploads/nuova4.jpg
+        image: /images/uploads/opening_lombracheresta_spaziomilesi_251023-55.jpg
 ---
