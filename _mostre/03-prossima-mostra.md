@@ -76,7 +76,7 @@ artists:
   - name_first: Camilla
     name_last: Cardia
     origin: Cagliari, 1994
-    bio: >
+    bio: >+
       Camilla Cardia (Cagliari, 1994) si è laureata in fotografia in fotografia
       presso l’École nationale supérieure Louis-Lumière, Francia risiede ora a
       Parigi. La sua pratica si serve principalmente dell’immagine fissa e in
@@ -87,58 +87,17 @@ artists:
       documentari di ricerca sullo spazio urbano e sul paesaggio.
 
 
-      SCREENING
+      I film di Camilla Cardia sono stati presentati in festival, mostre e rassegne internazionali dedicate al cinema, all’arte contemporanea e all’architettura. Nel 2024 il suo lavoro è stato proiettato presso il Micro-Folie Musée di Hirson, in Francia, nell’ambito di *PANORAMAS*, e ha preso parte alla mostra collettiva *La montagne ça ne grandit pas* presso l’École nationale supérieure d’architecture de Clermont-Ferrand.
 
 
-      2024
-
-      PANORAMAS
-
-      Proiezione,Micro-Folie musée, Hirson, Francia
-
-      La montagne ça ne grandit pas
-
-      Esposizione collettiva, École nationale supérieure d’architecture de Clermont-Ferrand, Francia
+      Nel 2023 il film *Toujours jamais pareil, encore – Pierre Mabille* è stato presentato all’interno della mostra *Les incroyables histoires des Tarterêts* presso la galleria d’arte di Corbeil-Essonnes, in Francia.
 
 
-      2023
-
-      Toujours jamais pareil, encore - Pierre Mabille
-
-      Esposizione, Les incroyables histoires des Tarterêts, Galleria d’arte Corbeil-Essonnes, Francia
+      Nel 2022 i suoi lavori sono stati inclusi in importanti contesti espositivi e cinematografici internazionali: *Les incroyables histoires des Tarterêts* è stato proiettato dal Cine-club Hospitalet de Llobregat di Barcellona; *Les traces du vivant* è stato presentato alla Biennale di Architettura e Paesaggio di Versailles; mentre *Le vol* è stato esposto come installazione nella mostra *Promenade loin(g)taine – Les artistes étrangers au fil du Loing* al Château-Musée de Nemours.
 
 
-      2022
+      Tra le partecipazioni precedenti si segnalano *Seddas de Misa*, selezionato nel 2021 per il Festival Image de Ville di Marsiglia e, nel 2019, per il Sardinia Film Festival, e *Cent Ans*, presentato al Festival International du Cinéma Ethnographique Jean Rouch di Parigi.
 
-      Les incroyables histoires des Tartêrets
-
-      Proiezione Cine-club Hospitalet de Llobregat, Barcellona, Spagna
-
-      Les traces du vivant
-
-      Biennale di architettura e paesaggio di Versailles, École nationale supérieure d’Architecture de Versailles, Francia
-
-      Le vol
-
-      Installazione nell’esposizione Promenade loin(g)taine - Les artistes étrangers au fil du Loing Château-Musée de Nemours, Francia
-
-
-      2021
-
-      Seddas de Misa
-
-      Festival Image de Ville, Marsiglia, Francia
-
-
-      2019
-
-      Seddas de Misa
-
-      Sardinia Film Festival, Sardegna, Italia
-
-      Cent Ans
-
-      Festival International du Cinéma Ethnographique Jean Rouch, Parigi, Francia
     works:
       - title: Les incroyables histoires des Tarterêts
         year: "2022"
