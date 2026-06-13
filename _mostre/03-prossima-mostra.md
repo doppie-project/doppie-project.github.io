@@ -54,7 +54,7 @@ artists:
         title: Iper-Paesaggio
         year: "2023"
         image: /images/uploads/c7695d1f-b2de-4cbc-b8c0-b034e01a2ad6.jpg
-    bio: >
+    bio: >+
       Edoardo Bonacina (Como, 2001) è un giovane artista attivo tra Como e
       Milano, ha conseguito la laurea Magistrale in Arti Visive e Studi
       Curatoriali presso NABA (Nuova Accademia di Belle Arti Milano). Lavora
@@ -65,55 +65,14 @@ artists:
       rapporto con gli oggetti banali e gli spazi quotidiani.
 
 
-      MOSTRE E RESIDENZE
-
-      2026
-
-      ZK/U – Zentrum für Kunst und Urbanistik, residenza artistica come ricercatore
-
-      Canonica di San Salvatore, Capriccio, laboratorio-residenza artistica come art director
+      Edoardo Bonacina ha partecipato a mostre, residenze e programmi di ricerca presso istituzioni e spazi dedicati all’arte contemporanea in Italia e all’estero. Tra le esperienze più recenti figurano la residenza come ricercatore presso ZK/U – Zentrum für Kunst und Urbanistik di Berlino e il laboratorio-residenza *Capriccio* alla Canonica di San Salvatore (2026). Nel 2025 ha esposto a Fabbrica del Vapore con *Notes on Becoming* e a Spazio Gallucci con la bipersonale *Cerchio d’immagine*, oltre a partecipare alla residenza di Dolomiti Contemporanee e alla mostra *Detriti Frammenti Schegge Brecce* presso il Nuovo Spazio di Casso.
 
 
-      2025
-
-      Fabbrica del Vapore, Notes on Becoming
-
-      Spazio Gallucci, Cerchio d’immagine (bipersonale)
-
-      Ex Colonia ENI, programma di residenza Dolomiti Contemporanee
-
-      Nuovo Spazio di Casso, Detriti Frammenti Schegge Brecce
+      Nel 2024 è stato selezionato per *Microclima Variabile*, XXVIII CSAV Artists’ Research Laboratory della Fondazione Antonio Ratti. Tra le precedenti esperienze espositive si segnalano *Riccardo Dalisi. Radicalmente* al MAXXI di Roma, *Voicing the Archive* alla Triennale Milano e *Travelling Gaze* alla Stazione Cadorna (2023), oltre ai progetti *Subterreus* e *Matria* alla Casa del Fascio di Como (2022).
 
 
-      2024
+      Nel 2026 è finalista del Premio Mila – Fondo Malerba per la Fotografia; nel 2024 ha ricevuto una menzione d’onore al Premio Raccont’Arti – Fotografia Contemporanea.
 
-      Fondazione Antonio Ratti, Microclima Variabile, XXVIII CSAV Artists’ Research Laboratory
-
-
-      2023
-       MAXXI – Museo nazionale delle arti del XXI secolo, Riccardo Dalisi. Radicalmente
-
-      2023
-
-      Triennale Milano, Voicing the Archive
-
-      Stazione Cadorna, Travelling Gaze
-
-
-      2022
-
-      Casa del Fascio, Subterreus e Matria
-
-
-      PREMI
-
-      2026
-
-      Premio Mila – Fondo Malerba per la Fotografia, finalista
-
-      2024
-
-      Premio Raccont’Arti – Fotografia Contemporanea, menzione d’onore
   - name_first: Camilla
     name_last: Cardia
     origin: Cagliari, 1994
