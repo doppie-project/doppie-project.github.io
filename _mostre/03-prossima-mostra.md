@@ -46,6 +46,17 @@ artists:
 
           In una “città ideale” interamente razionalista, una giovane ragazza si ritroverà a dover scappare inseguita dai palazzi, dalle architetture e dalle ombre della città stessa che la incalzeranno a tal punto da inghiottirla nelle loro profondità più recondite.Il film intende essere una analisi dello “spazio razionalista” e di come la progettazione stereometrica ed architettonica dei luoghi pubblici possa essere veicolo di atteggiamenti e pratiche sociali predeterminate da una entità di “potere”. Il “Monumentalismo”, come definito da Ugo la Pietra e utilizzato ampiamente dal regime fascista, non è altro che una fallacia progettuale che predilige la forma alla funzionalità e che rende gli spazi pubblici non solo luoghi di semplice utilizzo ma anche dispositivi per la costituzione di gerarchie sociali.
         image: /images/uploads/screenshot-2026-06-13-175846.png
+      - description: >-
+          Stampa su UV su PVC 100 x 120 cm
+
+
+
+          Parte di serie composta da 1 Stampa su UV su PVC 100 x 120 cm, 50 stampe inkjet su
+
+          carta mohawk 18 x 22,5cm
+        title: Iper-Paesaggio
+        year: "2023"
+        image: /images/uploads/c7695d1f-b2de-4cbc-b8c0-b034e01a2ad6.jpg
     bio: >
       Edoardo Bonacina (Como, 2001) è un giovane artista attivo tra Como e
       Milano, ha conseguito la laurea Magistrale in Arti Visive e Studi
@@ -190,4 +201,13 @@ artists:
 
           Senghor, Corbeil-Essonnes. Con il supporto dell’Agence Nationale pour la cohesion des territoires, la regione Île-de-France, il dipartimento dell’Essonne, la città di Corbeil-Essonnes.
         image: /images/uploads/screenshot-2026-06-13-180645.png
+      - title: Gira Gira, Carrousel
+        description: |-
+          Acrilico su lino.
+          66x40x40 cm.
+
+          Gonna-film. Pezzo unico.
+          Firmato e datato sul rovescio.
+        year: "2023"
+        image: /images/uploads/whatsapp-image-2026-06-08-at-10.59.06.jpeg
 ---
