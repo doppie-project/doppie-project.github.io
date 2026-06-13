@@ -68,4 +68,16 @@ artists:
         description: |-
           Stampa su carta.
           28 x 38 x 5 cm
+      - image: /images/uploads/13_2.jpg
+        title: Infanzia Estiva
+        year: "2024"
+        description: |-
+          Poliuretano, rami, plastica, cera, resina,tende veneziane.
+          h 100,5 cm diametro 25 cm
+      - image: /images/uploads/16_2.jpg
+        title: Senza titolo (Orchidea)
+        year: "2024"
+        description: |-
+          MDF, legno, pittura acrilica.
+          20 x 18 x 7 cm
 ---
