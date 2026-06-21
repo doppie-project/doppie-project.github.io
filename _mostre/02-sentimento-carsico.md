@@ -6,7 +6,7 @@ order: 1
 status: Concluso
 location: Novocomum, Como
 location_short: Como
-curatela: Chiara Smedile, Attilio terragni
+curatela: Chiara Smedile, Attilio Terragni
 hero_image: /images/uploads/banner.png
 description: >
   C’è qualcosa che scorre sotto la pietra. Un pensiero che non smette di
