@@ -2,12 +2,15 @@
 layout: default
 title: Contatti
 permalink: /contatti/
-section_num: "(04) — Partecipa"
+section_num: (04) — Partecipa
 title_main_1: Mettiamoci
 title_main_2: in
 title_italic: contatto
-lead: "Portfolio, donazioni, collaborazioni — <em>scrivici</em>."
-form_endpoint: "https://script.google.com/macros/s/AKfycbwSC36DQMW8Td1EG0a0ux0eupHyDkhTyZwunf_zklj6S39xD4K5MbooiQ5Ygc3y2oIo/exec"
+lead: |-
+  Portfolio, donazioni, collaborazioni — <em>scrivici</em>.
+
+  info.doppieproject@gmail.com
+form_endpoint: https://script.google.com/macros/s/AKfycbwSC36DQMW8Td1EG0a0ux0eupHyDkhTyZwunf_zklj6S39xD4K5MbooiQ5Ygc3y2oIo/exec
 ---
 
 <section id="contatti">
