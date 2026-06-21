@@ -1,14 +1,18 @@
 ---
 layout: default
 permalink: /
-hero_top_left: Est. MMXXIV
+hero_top_left: Est. MMXXV
 hero_top_center: Collettivo — Milano / Como
-hero_statement_line_1: dispositivo curatoriale
-hero_statement_line_2: <em>arte contemporanea</em> e <em>architettura</em>.
-hero_statement_line_3: Due luoghi, due artisti, due storie.
+hero_statement_line_1: Il doppio come dispositivo curatoriale
+hero_statement_line_2: <em>tra arte contemporanea</em> e <em>architettura</em>.
+hero_statement_line_3: Sul senso dell’abitare, sul linguaggio della forma, sulla
+  materia e sull’architettura.
 scroll_cue_text: Scroll to explore
-manifesto_text: Ogni mostra è <em>un incontro</em> — tra spazio e opera, <em>tra
-  materia e vuoto</em>, tra chi abita e chi attraversa.
+manifesto_text: >
+  Ogni incontro è <em>un dispositivo critico e sensibile</em> — dove opere,
+  pensieri e ambienti costruiscono nuove possibilità di esperienza collettiva,
+  <em>creando un ponte tra la città di Milano e la città di Como</em>, tra chi
+  abita e chi attraversa.
 ---
 
 <section id="hero">
