@@ -2,9 +2,9 @@
 layout: default
 title: Mostre
 permalink: /mostre/
-section_num: "(02) — Archivio"
+section_num: (02) — Archivio
 title_main: Mostre
-lead: "Un dialogo tra <em>arte contemporanea</em> e <em>spazio architettonico</em>, costruito una mostra alla volta."
+lead: "Tra Milano e Como: mostre, screenings, eventi"
 ---
 
 <section id="mostre">
