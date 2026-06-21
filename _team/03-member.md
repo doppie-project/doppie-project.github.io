@@ -1,6 +1,6 @@
 ---
-name: Nome Cognome
-role: Curatore
+name: Anna Laura Piana
+role: Curatrice
 order: 3
 photo: https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=2400&auto=format&fit=crop
 bio: Breve biografia — la pratica, il percorso, la visione personale con DOPPIE.
