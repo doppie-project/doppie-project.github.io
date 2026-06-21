@@ -41,7 +41,7 @@ artists:
           5’50’’
 
 
-          In una “città ideale” interamente razionalista, una giovane ragazza si ritroverà a dover scappare inseguita dai palazzi, dalle architetture e dalle ombre della città stessa che la incalzeranno a tal punto da inghiottirla nelle loro profondità più recondite. Il film intende essere un'analisi dello “spazio razionalista” e di come la progettazione stereometrica ed architettonica dei luoghi pubblici possa essere veicolo di atteggiamenti e pratiche sociali predeterminate da una entità di “potere”. 
+          In una “città ideale” interamente razionalista, una giovane ragazza si ritroverà a dover scappare inseguita dai palazzi, dalle architetture e dalle ombre della città stessa che la incalzeranno a tal punto da inghiottirla nelle loro profondità più recondite. Il film intende essere un'analisi dello “spazio razionalista” e di come la progettazione stereometrica ed architettonica dei luoghi pubblici possa essere veicolo di atteggiamenti e pratiche sociali predeterminate da un'entità di “potere”. 
         image: /images/uploads/screenshot-2026-06-13-175846.png
       - description: >-
           Stampa su UV su PVC 100 x 120 cm
