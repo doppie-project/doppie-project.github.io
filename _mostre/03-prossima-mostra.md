@@ -37,11 +37,11 @@ artists:
     works:
       - title: SUBTERREUS
         year: "2022"
-        description: >
+        description: >-
           5’50’’
 
 
-          In una “città ideale” interamente razionalista, una giovane ragazza si ritroverà a dover scappare inseguita dai palazzi, dalle architetture e dalle ombre della città stessa che la incalzeranno a tal punto da inghiottirla nelle loro profondità più recondite.Il film intende essere una analisi dello “spazio razionalista” e di come la progettazione stereometrica ed architettonica dei luoghi pubblici possa essere veicolo di atteggiamenti e pratiche sociali predeterminate da una entità di “potere”. Il “Monumentalismo”, come definito da Ugo la Pietra e utilizzato ampiamente dal regime fascista, non è altro che una fallacia progettuale che predilige la forma alla funzionalità e che rende gli spazi pubblici non solo luoghi di semplice utilizzo ma anche dispositivi per la costituzione di gerarchie sociali.
+          In una “città ideale” interamente razionalista, una giovane ragazza si ritroverà a dover scappare inseguita dai palazzi, dalle architetture e dalle ombre della città stessa che la incalzeranno a tal punto da inghiottirla nelle loro profondità più recondite. Il film intende essere un'analisi dello “spazio razionalista” e di come la progettazione stereometrica ed architettonica dei luoghi pubblici possa essere veicolo di atteggiamenti e pratiche sociali predeterminate da una entità di “potere”. 
         image: /images/uploads/screenshot-2026-06-13-175846.png
       - description: >-
           Stampa su UV su PVC 100 x 120 cm
@@ -105,16 +105,10 @@ artists:
           Animazione, suono, 7’
 
 
-          Les Tarterêts è un quartiere di edilizia popolare nella regione Île-de-France, descritto dalla stampa come teatro di accesi conflitti sociali, in particolare negli anni ‘90. Il quartiere è stato oggetto di un primo ANRU (Agenzia Nazionale per il Rinnovamento Urbano) negli anni 2000, che ha portato, in dieci anni, alla demolizione di 13 torri di edilizia residenziale pubblica, la ricollocazione di parte della popolazione e la soppressione di diversi luoghi di ritrovo. Oggi è in corso un secondo ANRU che prevede la demolizione di altre 4 torri.
-
-          Il cortometraggio-animato mostra un ritratto del quartiere attraverso l’esperienza di giovani abitanti tra gli 11 e i 12 anni, che raccontano delle storie ancorate alla loro esperienza e alla loro immaginazione. Qui Les Tarterêts è un quartiere che è una città, dove lo spazio pubblico è un parco giochi e il luogo dell’incontro con “l’altro”. Il documento filmico è un archivio di notizie, finzioni, ricordi e speranze dei giovani abitanti dei Tarterêts.
-
-          I disegni e le voci spontanee de_ protagonist_, ci danno accesso a una ricca articolazione di esperienze che testimoniano le avventure di una generazione confrontata con i temi della migrazione, della discriminazione (subita o inflitta) e del rinnovamento urbano all’indomani di una pandemia che ha segnato profondamente le nostre menti e il nostro linguaggio.
+          Il cortometraggio-animato mostra un ritratto del quartiere di edilizia popolare Les Tarterêts attraverso l’esperienza dei ragazzi che lo abitano. I disegni e le voci spontanee de_ protagonist_ ci danno accesso a una ricca articolazione di esperienze che testimoniano le avventure di una generazione confrontata con i temi della migrazione, della discriminazione (subita o inflitta) e del rinnovamento urbano.
 
 
-          Residenza di creazione con l’Istituto Léopold Sédar
-
-          Senghor, Corbeil-Essonnes. Con il supporto dell’Agence Nationale pour la cohesion des territoires, la regione Île-de-France, il dipartimento dell’Essonne, la città di Corbeil-Essonnes.
+          Video creato in residenza con l’Istituto Léopold Sédar Senghor, Corbeil-Essonnes. Con il supporto dell’Agence Nationale pour la cohesion des territoires, la regione Île-de-France, il dipartimento dell’Essonne, la città di Corbeil-Essonnes.
         image: /images/uploads/screenshot-2026-06-13-180645.png
       - title: Gira Gira, Carrousel
         description: |-
