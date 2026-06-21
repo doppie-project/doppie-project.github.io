@@ -2,12 +2,13 @@
 layout: default
 permalink: /
 hero_top_left: Est. MMXXIV
-hero_top_center: Collettivo Artistico — Milano / Como
-hero_statement_line_1: Un collettivo che fa dialogare
-hero_statement_line_2: "<em>arte contemporanea</em> e <em>architettura</em>."
+hero_top_center: Collettivo — Milano / Como
+hero_statement_line_1: dispositivo curatoriale
+hero_statement_line_2: <em>arte contemporanea</em> e <em>architettura</em>.
 hero_statement_line_3: Due luoghi, due artisti, due storie.
 scroll_cue_text: Scroll to explore
-manifesto_text: "Ogni mostra è <em>un incontro</em> — tra spazio e opera, <em>tra materia e vuoto</em>, tra chi abita e chi attraversa."
+manifesto_text: Ogni mostra è <em>un incontro</em> — tra spazio e opera, <em>tra
+  materia e vuoto</em>, tra chi abita e chi attraversa.
 ---
 
 <section id="hero">
