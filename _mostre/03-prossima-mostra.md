@@ -30,9 +30,6 @@ description: >
 
 
   Le opere di Cardia e Bonacina ci ricordano che ogni città è un organismo vivo, fatto non solo di cemento e geometrie, ma di corpi, desideri, conflitti e possibilità. Ed è proprio nella capacità di rendere visibile ciò che solitamente resta nascosto che l’arte può ancora aprire uno spazio di trasformazione collettiva. 
-
-
-  di Anna Laura Piana
 artists:
   - name_first: Edoardo
     name_last: Bonacina
@@ -40,11 +37,11 @@ artists:
     works:
       - title: SUBTERREUS
         year: "2022"
-        description: >
+        description: >-
           5’50’’
 
 
-          In una “città ideale” interamente razionalista, una giovane ragazza si ritroverà a dover scappare inseguita dai palazzi, dalle architetture e dalle ombre della città stessa che la incalzeranno a tal punto da inghiottirla nelle loro profondità più recondite.Il film intende essere una analisi dello “spazio razionalista” e di come la progettazione stereometrica ed architettonica dei luoghi pubblici possa essere veicolo di atteggiamenti e pratiche sociali predeterminate da una entità di “potere”. Il “Monumentalismo”, come definito da Ugo la Pietra e utilizzato ampiamente dal regime fascista, non è altro che una fallacia progettuale che predilige la forma alla funzionalità e che rende gli spazi pubblici non solo luoghi di semplice utilizzo ma anche dispositivi per la costituzione di gerarchie sociali.
+          In una “città ideale” interamente razionalista, una giovane ragazza si ritroverà a dover scappare inseguita dai palazzi, dalle architetture e dalle ombre della città stessa che la incalzeranno a tal punto da inghiottirla nelle loro profondità più recondite. Il film intende essere un'analisi dello “spazio razionalista” e di come la progettazione stereometrica ed architettonica dei luoghi pubblici possa essere veicolo di atteggiamenti e pratiche sociali predeterminate da un'entità di “potere”. 
         image: /images/uploads/screenshot-2026-06-13-175846.png
       - description: >-
           Stampa su UV su PVC 100 x 120 cm
@@ -57,7 +54,7 @@ artists:
         title: Iper-Paesaggio
         year: "2023"
         image: /images/uploads/c7695d1f-b2de-4cbc-b8c0-b034e01a2ad6.jpg
-    bio: >
+    bio: >+
       Edoardo Bonacina (Como, 2001) è un giovane artista attivo tra Como e
       Milano, ha conseguito la laurea Magistrale in Arti Visive e Studi
       Curatoriali presso NABA (Nuova Accademia di Belle Arti Milano). Lavora
@@ -68,59 +65,18 @@ artists:
       rapporto con gli oggetti banali e gli spazi quotidiani.
 
 
-      MOSTRE E RESIDENZE
-
-      2026
-
-      ZK/U – Zentrum für Kunst und Urbanistik, residenza artistica come ricercatore
-
-      Canonica di San Salvatore, Capriccio, laboratorio-residenza artistica come art director
+      Edoardo Bonacina ha partecipato a mostre, residenze e programmi di ricerca presso istituzioni e spazi dedicati all’arte contemporanea in Italia e all’estero. Tra le esperienze più recenti figurano la residenza come ricercatore presso ZK/U – Zentrum für Kunst und Urbanistik di Berlino e il laboratorio-residenza *Capriccio* alla Canonica di San Salvatore (2026). Nel 2025 ha esposto a Fabbrica del Vapore con *Notes on Becoming* e a Spazio Gallucci con la bipersonale *Cerchio d’immagine*, oltre a partecipare alla residenza di Dolomiti Contemporanee e alla mostra *Detriti Frammenti Schegge Brecce* presso il Nuovo Spazio di Casso.
 
 
-      2025
-
-      Fabbrica del Vapore, Notes on Becoming
-
-      Spazio Gallucci, Cerchio d’immagine (bipersonale)
-
-      Ex Colonia ENI, programma di residenza Dolomiti Contemporanee
-
-      Nuovo Spazio di Casso, Detriti Frammenti Schegge Brecce
+      Nel 2024 è stato selezionato per *Microclima Variabile*, XXVIII CSAV Artists’ Research Laboratory della Fondazione Antonio Ratti. Tra le precedenti esperienze espositive si segnalano *Riccardo Dalisi. Radicalmente* al MAXXI di Roma, *Voicing the Archive* alla Triennale Milano e *Travelling Gaze* alla Stazione Cadorna (2023), oltre ai progetti *Subterreus* e *Matria* alla Casa del Fascio di Como (2022).
 
 
-      2024
+      Nel 2026 è finalista del Premio Mila – Fondo Malerba per la Fotografia; nel 2024 ha ricevuto una menzione d’onore al Premio Raccont’Arti – Fotografia Contemporanea.
 
-      Fondazione Antonio Ratti, Microclima Variabile, XXVIII CSAV Artists’ Research Laboratory
-
-
-      2023
-       MAXXI – Museo nazionale delle arti del XXI secolo, Riccardo Dalisi. Radicalmente
-
-      2023
-
-      Triennale Milano, Voicing the Archive
-
-      Stazione Cadorna, Travelling Gaze
-
-
-      2022
-
-      Casa del Fascio, Subterreus e Matria
-
-
-      PREMI
-
-      2026
-
-      Premio Mila – Fondo Malerba per la Fotografia, finalista
-
-      2024
-
-      Premio Raccont’Arti – Fotografia Contemporanea, menzione d’onore
   - name_first: Camilla
     name_last: Cardia
     origin: Cagliari, 1994
-    bio: >
+    bio: >+
       Camilla Cardia (Cagliari, 1994) si è laureata in fotografia in fotografia
       presso l’École nationale supérieure Louis-Lumière, Francia risiede ora a
       Parigi. La sua pratica si serve principalmente dell’immagine fissa e in
@@ -131,58 +87,17 @@ artists:
       documentari di ricerca sullo spazio urbano e sul paesaggio.
 
 
-      SCREENING
+      I film di Camilla Cardia sono stati presentati in festival, mostre e rassegne internazionali dedicate al cinema, all’arte contemporanea e all’architettura. Nel 2024 il suo lavoro è stato proiettato presso il Micro-Folie Musée di Hirson, in Francia, nell’ambito di *PANORAMAS*, e ha preso parte alla mostra collettiva *La montagne ça ne grandit pas* presso l’École nationale supérieure d’architecture de Clermont-Ferrand.
 
 
-      2024
-
-      PANORAMAS
-
-      Proiezione,Micro-Folie musée, Hirson, Francia
-
-      La montagne ça ne grandit pas
-
-      Esposizione collettiva, École nationale supérieure d’architecture de Clermont-Ferrand, Francia
+      Nel 2023 il film *Toujours jamais pareil, encore – Pierre Mabille* è stato presentato all’interno della mostra *Les incroyables histoires des Tarterêts* presso la galleria d’arte di Corbeil-Essonnes, in Francia.
 
 
-      2023
-
-      Toujours jamais pareil, encore - Pierre Mabille
-
-      Esposizione, Les incroyables histoires des Tarterêts, Galleria d’arte Corbeil-Essonnes, Francia
+      Nel 2022 i suoi lavori sono stati inclusi in importanti contesti espositivi e cinematografici internazionali: *Les incroyables histoires des Tarterêts* è stato proiettato dal Cine-club Hospitalet de Llobregat di Barcellona; *Les traces du vivant* è stato presentato alla Biennale di Architettura e Paesaggio di Versailles; mentre *Le vol* è stato esposto come installazione nella mostra *Promenade loin(g)taine – Les artistes étrangers au fil du Loing* al Château-Musée de Nemours.
 
 
-      2022
+      Tra le partecipazioni precedenti si segnalano *Seddas de Misa*, selezionato nel 2021 per il Festival Image de Ville di Marsiglia e, nel 2019, per il Sardinia Film Festival, e *Cent Ans*, presentato al Festival International du Cinéma Ethnographique Jean Rouch di Parigi.
 
-      Les incroyables histoires des Tartêrets
-
-      Proiezione Cine-club Hospitalet de Llobregat, Barcellona, Spagna
-
-      Les traces du vivant
-
-      Biennale di architettura e paesaggio di Versailles, École nationale supérieure d’Architecture de Versailles, Francia
-
-      Le vol
-
-      Installazione nell’esposizione Promenade loin(g)taine - Les artistes étrangers au fil du Loing Château-Musée de Nemours, Francia
-
-
-      2021
-
-      Seddas de Misa
-
-      Festival Image de Ville, Marsiglia, Francia
-
-
-      2019
-
-      Seddas de Misa
-
-      Sardinia Film Festival, Sardegna, Italia
-
-      Cent Ans
-
-      Festival International du Cinéma Ethnographique Jean Rouch, Parigi, Francia
     works:
       - title: Les incroyables histoires des Tarterêts
         year: "2022"
@@ -190,16 +105,10 @@ artists:
           Animazione, suono, 7’
 
 
-          Les Tarterêts è un quartiere di edilizia popolare nella regione Île-de-France, descritto dalla stampa come teatro di accesi conflitti sociali, in particolare negli anni ‘90. Il quartiere è stato oggetto di un primo ANRU (Agenzia Nazionale per il Rinnovamento Urbano) negli anni 2000, che ha portato, in dieci anni, alla demolizione di 13 torri di edilizia residenziale pubblica, la ricollocazione di parte della popolazione e la soppressione di diversi luoghi di ritrovo. Oggi è in corso un secondo ANRU che prevede la demolizione di altre 4 torri.
-
-          Il cortometraggio-animato mostra un ritratto del quartiere attraverso l’esperienza di giovani abitanti tra gli 11 e i 12 anni, che raccontano delle storie ancorate alla loro esperienza e alla loro immaginazione. Qui Les Tarterêts è un quartiere che è una città, dove lo spazio pubblico è un parco giochi e il luogo dell’incontro con “l’altro”. Il documento filmico è un archivio di notizie, finzioni, ricordi e speranze dei giovani abitanti dei Tarterêts.
-
-          I disegni e le voci spontanee de_ protagonist_, ci danno accesso a una ricca articolazione di esperienze che testimoniano le avventure di una generazione confrontata con i temi della migrazione, della discriminazione (subita o inflitta) e del rinnovamento urbano all’indomani di una pandemia che ha segnato profondamente le nostre menti e il nostro linguaggio.
+          Il cortometraggio-animato mostra un ritratto del quartiere di edilizia popolare Les Tarterêts attraverso l’esperienza dei ragazzi che lo abitano. I disegni e le voci spontanee de_ protagonist_ ci danno accesso a una ricca articolazione di esperienze che testimoniano le avventure di una generazione confrontata con i temi della migrazione, della discriminazione (subita o inflitta) e del rinnovamento urbano.
 
 
-          Residenza di creazione con l’Istituto Léopold Sédar
-
-          Senghor, Corbeil-Essonnes. Con il supporto dell’Agence Nationale pour la cohesion des territoires, la regione Île-de-France, il dipartimento dell’Essonne, la città di Corbeil-Essonnes.
+          Video creato in residenza con l’Istituto Léopold Sédar Senghor, Corbeil-Essonnes. Con il supporto dell’Agence Nationale pour la cohesion des territoires, la regione Île-de-France, il dipartimento dell’Essonne, la città di Corbeil-Essonnes.
         image: /images/uploads/screenshot-2026-06-13-180645.png
       - title: Gira Gira, Carrousel
         description: |-
