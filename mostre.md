@@ -4,7 +4,7 @@ title: Mostre
 permalink: /mostre/
 section_num: (02) — Archivio
 title_main: Mostre
-lead: Tra Milano e Como
+lead: "Tra Milano e Como: mostre, screenings, eventi"
 ---
 
 <section id="mostre">
