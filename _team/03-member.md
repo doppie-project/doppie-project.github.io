@@ -1,10 +1,15 @@
 ---
-name: Nome Cognome
-role: Curatore
+name: Anna Laura Piana
+role: Curatrice
 order: 3
-photo: https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=2400&auto=format&fit=crop
-bio: Breve biografia — la pratica, il percorso, la visione personale con DOPPIE.
-email: nome@doppieproject.com
-social_link: https://instagram.com/
+photo: /images/uploads/propic.jpeg
+bio: "In seguito alla laurea triennale in Arti Visive presso NABA ha concluso il
+  percorso formativo con un Master in Contemporary Art Markets. Il suo percorso
+  unisce una formazione pratica a una conoscenza delle dinamiche del mercato
+  dell’arte. Ha lavorato per la Fondazione Giuseppe Iannaccone come assistente
+  al curatore nel 2025. Attualmente lavora come consulente nell'ambito
+  dell'Interior Design. "
+email: info.doppieproject@gmail.com
+social_link: https://www.instagram.com/annnalaurap/
 social_label: Instagram
 ---
