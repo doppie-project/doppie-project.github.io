@@ -3,17 +3,16 @@ layout: default
 permalink: /
 hero_top_left: Est. MMXXV
 hero_top_center: Collettivo — Milano / Como
-hero_statement_line_1: Il doppio come dispositivo curatoriale
-hero_statement_line_2: Ogni incontro è <em>un dispositivo critico e
-  sensibile</em> dove opere, pensieri e ambienti costruiscono nuove possibilità
-  di esperienza collettiva,
+hero_statement_line_1: "Il doppio come "
+hero_statement_line_2: <em>un dispositivo curatoriale critico e sensibile</em>
+  dove opere, pensieri e ambienti costruiscono nuove possibilità di esperienza
+  collettiva,
 hero_statement_line_3: " <em>creando un ponte tra la città di Milano e la città
   di Como</em>, tra chi abita e chi attraversa."
 scroll_cue_text: Scroll to explore
 manifesto_text: |
   <em>“Abitare significa lasciare tracce.<em>
-  <em>Nell’intèriur queste tracce vengono messe in rilievo”<em>
-
+  Nell’intèriur queste tracce vengono messe in rilievo”
   Walter Benjamin
 ---
 
