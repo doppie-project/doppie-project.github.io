@@ -5,19 +5,19 @@ permalink: /chi-siamo/
 section_num: (01) — Il Collettivo
 title_main: Chi
 title_italic_line: siamo.
-lead: >
-  "Doppie" nasce all’interno dell’Archivio Giuseppe Terragni dall’iniziativa di
-  Chiara Smedile, curatrice dell’archivio, Anna Lura Piana, curatrice e collega
-  e di Attilio Terragni, discendente dell’architetto. Doppie nasce da una
-  riflessione sull’eredità culturale e progettuale dell'architetto e sulle
-  funzioni del dispositivo "archivio" prende forma l’esigenza di attivare nuovi
-  dialoghi tra luoghi, pratiche artistiche e contesti di ricerca, costruendo un
-  ponte tra Milano e Como. Ogni mostra è un incontro, un sguardo che genera
-  tensioni, consonanze, visioni condivise. Il “doppio” diventa un metodo per
-  interrogarsi sul senso dell’abitare, sul linguaggio della forma, sulla materia
-  e sull’architettura come struttura fisica e simbolica. Il progetto guarda in
-  particolare a giovani artisti emergenti che indagano il rapporto tra corpo,
-  spazio e costruzione, valorizzando pratiche ibride e sperimentali.
+lead: "\"Doppie\" nasce all’interno dell’Archivio Giuseppe Terragni
+  dall’iniziativa di Chiara Smedile, curatrice dell’archivio, Anna Lura Piana,
+  curatrice e collega e di Attilio Terragni, discendente dell’architetto. Doppie
+  nasce da una riflessione sull’eredità culturale e progettuale dell'architetto
+  e sulle funzioni del dispositivo \"archivio\". Con doppie prende forma
+  l’esigenza di attivare nuovi dialoghi tra luoghi, pratiche artistiche e
+  contesti di ricerca, costruendo un ponte tra Milano e Como. Ogni mostra è un
+  incontro, un sguardo che genera tensioni, consonanze, visioni condivise. Il
+  “doppio” diventa un metodo per interrogarsi sul senso dell’abitare, sul
+  linguaggio della forma, sulla materia e sull’architettura come struttura
+  fisica e simbolica. Il progetto guarda in particolare a giovani artisti
+  emergenti che indagano il rapporto tra corpo, spazio e costruzione,
+  valorizzando pratiche ibride e sperimentali."
 ---
 
 <section id="chi-siamo">
