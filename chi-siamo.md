@@ -6,7 +6,7 @@ section_num: (01) — Il Collettivo
 title_main: Chi
 title_italic_line: siamo.
 lead: "\"Doppie\" nasce all’interno dell’Archivio Giuseppe Terragni
-  dall’iniziativa di Chiara Smedile, curatrice dell’archivio, Anna Lura Piana,
+  dall’iniziativa di Chiara Smedile, curatrice dell’archivio, Anna Laura Piana,
   curatrice e collega e di Attilio Terragni, pittore, curatore nonchè
   discendente dell’architetto. Doppie nasce da una riflessione sull’eredità
   culturale e progettuale dell'architetto G. Terragni e sulle funzioni del
