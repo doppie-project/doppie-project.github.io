@@ -289,7 +289,6 @@ body.menu-open #mobile-menu {
 }
 .team-card:hover .team-photo img { filter: grayscale(0%); transform: scale(1.04); }
 .team-info { padding: 0 0.3rem; }
-.team-num { color: var(--grey); display: block; margin-bottom: 0.6rem; }
 .team-info h3 {
     font-family: var(--serif); font-weight: 500;
     font-size: clamp(1.2rem, 1.7vw, 1.8rem);

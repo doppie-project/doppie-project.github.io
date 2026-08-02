@@ -39,7 +39,6 @@ lead: >
                 {% endif %}
             </div>
             <div class="team-info">
-                <span class="mono team-num">— {{ forloop.index | prepend: '0' | slice: -2, 2 }} / {{ forloop.length | prepend: '0' | slice: -2, 2 }}</span>
                 <h3>{{ member.name | newline_to_br }}</h3>
                 <span class="team-role">{{ member.role }}</span>
                 {% if member.bio %}<p class="team-bio">{{ member.bio }}</p>{% endif %}
