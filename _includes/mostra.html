@@ -50,7 +50,10 @@
                 {% endif %}
             </div>
             {% if include.mostra.description %}
-                <p class="mostra-desc">{{ include.mostra.description }}</p>
+                <div class="mostra-desc-wrap">
+                    <p class="mostra-desc">{{ include.mostra.description }}</p>
+                    <button class="desc-toggle mono" type="button" aria-expanded="false">Leggi di più ↓</button>
+                </div>
             {% endif %}
         </div>
     </div>

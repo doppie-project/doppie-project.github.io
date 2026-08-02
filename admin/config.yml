@@ -27,16 +27,7 @@ collections:
           - {label: "Testo hero: riga 2 (usa <em>...</em> per il corsivo)", name: "hero_statement_line_2", widget: "string"}
           - {label: "Testo hero: riga 3", name: "hero_statement_line_3", widget: "string"}
           - {label: "Testo 'Scroll to explore'", name: "scroll_cue_text", widget: "string"}
-          - {label: "Carosello — didascalia", name: "carousel_caption", widget: "string", required: false}
-          - label: "Carosello immagini (scorrevole)"
-            name: "carousel_images"
-            widget: "list"
-            required: false
-            label_singular: "Immagine"
-            summary: "{{fields.image}}"
-            fields:
-              - {label: "Immagine", name: "image", widget: "image"}
-              - {label: "Testo alternativo", name: "alt", widget: "string", required: false}
+          - {label: "Carosello — didascalia", name: "carousel_caption", widget: "string", required: false, hint: "Le immagini del carosello vengono prese automaticamente dalle mostre"}
 
       - label: "Chi Siamo (testo intro)"
         name: "chi-siamo"

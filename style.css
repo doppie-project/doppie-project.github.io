@@ -353,6 +353,29 @@ body.menu-open #mobile-menu {
 .mostra-meta span.italic { font-style: italic; color: var(--grey); }
 .mostra-desc { font-size: 1.05rem; line-height: 1.55; font-weight: 300; max-width: 56ch; }
 
+/* Long descriptions collapse with a fade + "Leggi di più" toggle */
+.mostra-desc-wrap { position: relative; }
+.mostra-desc-wrap:not(.open) .mostra-desc {
+    max-height: 11em;           /* ~7 lines */
+    overflow: hidden;
+}
+.mostra-desc-wrap:not(.open):not(.no-toggle)::before {
+    content: '';
+    position: absolute; left: 0; right: 0;
+    bottom: 2.6rem; height: 4.5em;
+    background: linear-gradient(to bottom, rgba(255,255,255,0), var(--white));
+    pointer-events: none;
+}
+.desc-toggle {
+    margin-top: 1rem;
+    background: transparent; border: none;
+    padding: 0.3rem 0; border-bottom: 1px solid var(--black);
+    color: var(--black);
+}
+.desc-toggle:hover { color: var(--grey); border-color: var(--grey); }
+.mostra-desc-wrap.no-toggle .desc-toggle { display: none; }
+.mostra-desc-wrap.no-toggle .mostra-desc { max-height: none; }
+
 .mostra-artists { padding-top: 2rem; }
 .artists-label {
     color: var(--grey); margin-bottom: 3rem;
