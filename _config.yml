@@ -22,6 +22,11 @@ defaults:
 plugins:
   - jekyll-seo-tag
 
+# Jekyll skips files starting with "_" by default; CMS uploads sometimes have
+# them (e.g. _dsc0283.jpg). Publish them anyway.
+include:
+  - images/uploads/_*
+
 exclude:
   - Gemfile
   - Gemfile.lock

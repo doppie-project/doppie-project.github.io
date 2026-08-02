@@ -11,6 +11,17 @@ hero_statement_line_3: " <em>creando un ponte tra la città di Milano e la citt�
   di Como</em>, tra chi abita e chi attraversa."
 scroll_cue_text: Scroll to explore
 carousel_caption: Frammenti — Milano / Como
+carousel_images:
+  - image: /images/uploads/banner_lombracheresta.jpg
+  - image: /images/uploads/opening_lombracheresta_spaziomilesi_251023-62.jpg
+  - image: /images/uploads/opening_lombracheresta_spaziomilesi_251023-46.jpg
+  - image: /images/uploads/mostra_lombracheresta_spaziomilesi_251023-04.jpg
+  - image: /images/uploads/banner.png
+  - image: /images/uploads/616a8732.jpg
+  - image: /images/uploads/7l9a0814.jpg
+  - image: /images/uploads/7l9a0944.jpg
+  - image: /images/uploads/progetto-senza-titolo.jpg
+  - image: /images/uploads/img_0131.jpg
 ---
 
 <section id="hero">
@@ -41,26 +52,14 @@ carousel_caption: Frammenti — Milano / Como
         <span class="mono carousel-hint">Scroll →</span>
     </div>
     {% endif %}
-    {% comment %}
-      The carousel feeds itself automatically from the exhibitions (most recent
-      first): each mostra's hero image plus the first work of each artist.
-      Nothing to upload or manage — it stays in sync with the archive.
-    {% endcomment %}
+    {% comment %} Images are managed from the CMS (Homepage → Carosello immagini). {% endcomment %}
     <div class="carousel-track">
-        {% assign mostre_recent = site.mostre | sort: 'year' | reverse %}
-        {% for m in mostre_recent %}
-            {% if m.hero_image %}
+        {% for slide in page.carousel_images %}
+            {% if slide.image %}
             <figure class="carousel-slide">
-                <img src="{{ m.hero_image | relative_url }}" alt="{{ m.title_main }}" loading="lazy">
+                <img src="{{ slide.image | relative_url }}" alt="{{ slide.alt | default: 'DOPPIE' }}" loading="lazy">
             </figure>
             {% endif %}
-            {% for artist in m.artists limit: 2 %}
-                {% for w in artist.works limit: 1 %}
-                <figure class="carousel-slide">
-                    <img src="{{ w.image | relative_url }}" alt="{{ w.title | default: m.title_main }}" loading="lazy">
-                </figure>
-                {% endfor %}
-            {% endfor %}
         {% endfor %}
     </div>
 </section>

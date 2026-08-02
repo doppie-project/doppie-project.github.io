@@ -2,6 +2,7 @@
 title_main: PHANTASMATA
 title_italic: '"Nulla deve essere opaco"'
 year: 2026
+date: 2026-06-13
 order: 3
 status: Concluso
 location: Como, Nuovocomum

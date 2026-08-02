@@ -27,7 +27,18 @@ collections:
           - {label: "Testo hero: riga 2 (usa <em>...</em> per il corsivo)", name: "hero_statement_line_2", widget: "string"}
           - {label: "Testo hero: riga 3", name: "hero_statement_line_3", widget: "string"}
           - {label: "Testo 'Scroll to explore'", name: "scroll_cue_text", widget: "string"}
-          - {label: "Carosello — didascalia", name: "carousel_caption", widget: "string", required: false, hint: "Le immagini del carosello vengono prese automaticamente dalle mostre"}
+          - {label: "Carosello — didascalia", name: "carousel_caption", widget: "string", required: false}
+          - label: "Carosello immagini (scorrevole)"
+            name: "carousel_images"
+            widget: "list"
+            required: false
+            max: 20
+            label_singular: "Immagine"
+            summary: "{{fields.image}}"
+            hint: "Consigliate 10–20 immagini. Carica, riordina o elimina liberamente."
+            fields:
+              - {label: "Immagine", name: "image", widget: "image"}
+              - {label: "Testo alternativo", name: "alt", widget: "string", required: false}
 
       - label: "Chi Siamo (testo intro)"
         name: "chi-siamo"
@@ -96,7 +107,8 @@ collections:
       - {label: "Titolo (prima parte)", name: "title_main", widget: "string", hint: "Es. 'Sentimento'"}
       - {label: "Titolo (parte in corsivo)", name: "title_italic", widget: "string", required: false, hint: "Es. 'carsico' — apparirà in corsivo grigio"}
       - {label: "Anno", name: "year", widget: "number", value_type: "int"}
-      - {label: "Ordine di visualizzazione", name: "order", widget: "number", default: 1, value_type: "int", hint: "1 = prima mostra mostrata"}
+      - {label: "Data della mostra", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD", hint: "Determina l'ordine in archivio: la più recente appare per prima"}
+      - {label: "Ordine di visualizzazione", name: "order", widget: "number", default: 1, value_type: "int", hint: "Non più usato per l'ordinamento (si usa la Data)", required: false}
       - label: "Status"
         name: "status"
         widget: "select"
