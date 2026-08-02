@@ -30,7 +30,7 @@ lead: >
     <div class="team-grid">
         {% assign members = site.team | sort: 'order' %}
         {% for member in members %}
-        <article class="team-card{% if forloop.index0 | modulo: 2 == 1 %} offset{% endif %}">
+        <article class="team-card">
             <div class="team-photo">
                 {% if member.photo %}
                     <img src="{{ member.photo | relative_url }}" alt="{{ member.name }}" loading="lazy">
