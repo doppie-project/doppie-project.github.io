@@ -57,7 +57,7 @@ artists:
         description: |-
           Poliuretano, rami, foglie, plastica, cera, resina, legno.
           h 150 cm, diametro 14 cm
-      - image: /images/uploads/_dsc0283.jpg
+      - image: /images/uploads/dsc0283.jpg
         title: Senza titolo (Orchidea)
         year: "2024"
         description: |-
@@ -88,5 +88,5 @@ artists:
           31,5 x 21,5 cm
 
           1\2
-        image: /images/uploads/_dsc0335.jpg
+        image: /images/uploads/dsc0335.jpg
 ---
