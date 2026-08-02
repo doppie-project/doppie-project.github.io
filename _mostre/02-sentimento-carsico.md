@@ -2,6 +2,7 @@
 title_main: Sentimento Carsico
 title_italic: ""
 year: 2025
+date: 2025-05-01
 order: 1
 status: Concluso
 location: Novocomum, Como

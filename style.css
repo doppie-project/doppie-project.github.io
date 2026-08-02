@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,700;0,9..144,900;1,9..144,300;1,9..144,400;1,9..144,700&family=Geist+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;500&display=swap');
 
 :root {
     --white: #fff;
     --black: #000;
     --grey: #7a7a7a;
     --grey-light: #e6e6e6;
-    --serif: 'Fraunces', 'Times New Roman', serif;
+    /* Site body/display font — sans-serif (was the serif 'Fraunces'). */
+    --serif: Arial, 'Helvetica Neue', Helvetica, sans-serif;
     --mono: 'Geist Mono', 'Courier New', monospace;
 }
 
@@ -230,32 +231,56 @@ body.menu-open #mobile-menu {
 }
 .section-lead em { font-style: italic; color: var(--grey); }
 
-/* MANIFESTO */
-#manifesto {
-    padding: 20vh 2.5vw;
-    display: flex; justify-content: center; align-items: center;
-    text-align: center;
+/* CAROUSEL (homepage) */
+#carousel {
+    padding: 8vh 0 8vh 2.5vw;
     border-top: 1px solid var(--grey-light);
     border-bottom: 1px solid var(--grey-light);
+    overflow: hidden;
 }
-.manifesto-text {
-    font-family: var(--serif); font-weight: 400;
-    font-size: clamp(2rem, 5.5vw, 5.5rem);
-    line-height: 1.1; letter-spacing: -0.03em;
-    max-width: 22ch;
+.carousel-head {
+    display: flex; justify-content: space-between; align-items: baseline;
+    padding: 0 2.5vw 2rem 0;
+    color: var(--grey);
 }
-.manifesto-text em { font-style: italic; color: var(--grey); font-weight: 300; }
+.carousel-hint { color: var(--black); }
+.carousel-track {
+    display: flex; gap: 2vw;
+    overflow-x: auto; overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 1.5rem;
+    scrollbar-width: thin;
+}
+.carousel-track::-webkit-scrollbar { height: 4px; }
+.carousel-track::-webkit-scrollbar-thumb { background: var(--grey-light); border-radius: 100px; }
+.carousel-slide {
+    flex: 0 0 auto;
+    /* Compact filmstrip: slides keep their natural aspect ratio at a fixed,
+       window-friendly height (roughly the footer strip). */
+    height: clamp(220px, 34vh, 400px);
+    scroll-snap-align: start;
+    overflow: hidden;
+    background: var(--grey-light);
+}
+.carousel-slide:last-child { margin-right: 2.5vw; }
+.carousel-slide img {
+    height: 100%; width: auto; max-width: none;
+    display: block; object-fit: cover;
+    filter: grayscale(100%);
+    transition: filter 0.6s ease, transform 0.9s cubic-bezier(.2,.9,.3,1);
+}
+.carousel-slide:hover img { filter: grayscale(0%); transform: scale(1.03); }
 
-/* TEAM GRID */
+/* TEAM GRID — 4 compact cards in one row */
 .team-grid {
-    padding: 0 2.5vw 26vh;
-    display: grid; grid-template-columns: 1fr 1fr;
-    gap: 6vw 3vw;
+    padding: 0 2.5vw 14vh;
+    display: grid; grid-template-columns: repeat(4, 1fr);
+    gap: 3rem 2vw;
 }
-.team-card.offset { transform: translateY(14vh); }
 .team-photo {
     position: relative; aspect-ratio: 4 / 5; overflow: hidden;
-    background: var(--grey-light); margin-bottom: 1.5rem;
+    background: var(--grey-light); margin-bottom: 1.2rem;
 }
 .team-photo img {
     width: 100%; height: 100%; object-fit: cover;
@@ -264,15 +289,14 @@ body.menu-open #mobile-menu {
 }
 .team-card:hover .team-photo img { filter: grayscale(0%); transform: scale(1.04); }
 .team-info { padding: 0 0.3rem; }
-.team-num { color: var(--grey); display: block; margin-bottom: 0.8rem; }
 .team-info h3 {
     font-family: var(--serif); font-weight: 500;
-    font-size: clamp(2rem, 4.5vw, 3.5rem);
-    line-height: 0.92; margin-bottom: 0.8rem;
+    font-size: clamp(1.2rem, 1.7vw, 1.8rem);
+    line-height: 1; margin-bottom: 0.5rem;
 }
-.team-role { font-style: italic; font-size: 1.2rem; color: var(--grey); display: block; margin-bottom: 1.5rem; }
-.team-bio { font-size: 1rem; line-height: 1.5; max-width: 44ch; margin-bottom: 1.5rem; font-weight: 300; }
-.team-links { display: flex; gap: 2rem; }
+.team-role { font-style: italic; font-size: 1rem; color: var(--grey); display: block; margin-bottom: 0.9rem; }
+.team-bio { font-size: 0.88rem; line-height: 1.45; margin-bottom: 1rem; font-weight: 300; }
+.team-links { display: flex; gap: 1.2rem; flex-wrap: wrap; }
 .team-links a {
     display: inline-flex; gap: 0.3rem;
     padding-bottom: 0.3rem; border-bottom: 1px solid var(--black);
@@ -328,6 +352,29 @@ body.menu-open #mobile-menu {
 .mostra-meta span:not(.mono) { font-size: 1.05rem; }
 .mostra-meta span.italic { font-style: italic; color: var(--grey); }
 .mostra-desc { font-size: 1.05rem; line-height: 1.55; font-weight: 300; max-width: 56ch; }
+
+/* Long descriptions collapse with a fade + "Leggi di più" toggle */
+.mostra-desc-wrap { position: relative; }
+.mostra-desc-wrap:not(.open) .mostra-desc {
+    max-height: 11em;           /* ~7 lines */
+    overflow: hidden;
+}
+.mostra-desc-wrap:not(.open):not(.no-toggle)::before {
+    content: '';
+    position: absolute; left: 0; right: 0;
+    bottom: 2.6rem; height: 4.5em;
+    background: linear-gradient(to bottom, rgba(255,255,255,0), var(--white));
+    pointer-events: none;
+}
+.desc-toggle {
+    margin-top: 1rem;
+    background: transparent; border: none;
+    padding: 0.3rem 0; border-bottom: 1px solid var(--black);
+    color: var(--black);
+}
+.desc-toggle:hover { color: var(--grey); border-color: var(--grey); }
+.mostra-desc-wrap.no-toggle .desc-toggle { display: none; }
+.mostra-desc-wrap.no-toggle .mostra-desc { max-height: none; }
 
 .mostra-artists { padding-top: 2rem; }
 .artists-label {
@@ -412,6 +459,41 @@ body.menu-open #mobile-menu {
 .big-link:hover { background: var(--black); color: var(--white); }
 .big-link em { font-style: italic; margin-right: 0.3rem; }
 
+/* FANZINE */
+#fanzine { padding-bottom: 12vh; }
+.fanzine-list { padding: 0 2.5vw; }
+.fanzine-item {
+    display: grid; grid-template-columns: auto 1fr auto;
+    gap: 2rem 4vw; align-items: center;
+    padding: 2.5rem 0;
+    border-top: 1px solid var(--grey-light);
+}
+.fanzine-list .fanzine-item:last-child { border-bottom: 1px solid var(--grey-light); }
+.fanzine-num { color: var(--grey); }
+.fanzine-cover {
+    width: 120px; aspect-ratio: 3 / 4; object-fit: cover;
+    background: var(--grey-light); filter: grayscale(100%);
+    grid-row: span 2;
+}
+.fanzine-main { display: flex; flex-direction: column; gap: 0.6rem; min-width: 0; }
+.fanzine-title {
+    font-family: var(--serif); font-weight: 500;
+    font-size: clamp(1.8rem, 4vw, 3rem);
+    line-height: 0.95; letter-spacing: -0.03em;
+}
+.fanzine-title em { font-style: italic; color: var(--grey); }
+.fanzine-meta { font-family: var(--mono); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--grey); }
+.fanzine-desc { font-size: 1.02rem; line-height: 1.5; font-weight: 300; max-width: 60ch; color: var(--black); }
+.fanzine-download, .mostra-pdf {
+    display: inline-flex; align-items: center; gap: 0.6rem; white-space: nowrap;
+    padding: 0.9rem 1.6rem; border: 1px solid var(--black); border-radius: 100px;
+    font-family: var(--mono); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.15em;
+    transition: background 0.4s ease, color 0.4s ease;
+}
+.fanzine-download:hover, .mostra-pdf:hover { background: var(--black); color: var(--white); }
+.mostra-pdf { align-self: flex-start; }
+.fanzine-empty { padding: 6vh 2.5vw; color: var(--grey); font-size: 1.1rem; font-weight: 300; }
+
 /* CONTATTI */
 #contatti { padding: 0 0 12vh; border-bottom: 1px solid var(--grey-light); }
 .form { padding: 0 2.5vw; max-width: 900px; margin: 0 auto; }
@@ -491,15 +573,20 @@ body.menu-open #mobile-menu {
     .hero-bottom { grid-template-columns: 1fr; gap: 2rem; }
     .section-head { grid-template-columns: 1fr; padding: 10vh 5vw 4vh; }
     .section-lead { grid-column: 1; margin-left: 0; }
-    .team-grid { grid-template-columns: 1fr; gap: 4rem; padding: 0 5vw 4rem; }
-    .team-card.offset { transform: none; }
+    .team-grid { grid-template-columns: 1fr 1fr; gap: 2.5rem 4vw; padding: 0 5vw 4rem; }
     .mostra { padding: 0 5vw; margin-bottom: 10vh; }
     .mostra-hero { aspect-ratio: 4 / 3; }
     .mostra-body { grid-template-columns: 1fr; gap: 2rem; margin-bottom: 4rem; }
     .mostra-meta { grid-template-columns: 1fr; }
     .artist { grid-template-columns: 1fr; gap: 2rem; padding: 2rem 0 3rem; }
     .artist-works, .artist-works.three, .artist-works.four { grid-template-columns: 1fr 1fr; gap: 1rem; }
-    #manifesto { padding: 10vh 5vw; }
+    #carousel { padding: 8vh 0 8vh 5vw; }
+    .carousel-head { padding-right: 5vw; }
+    .carousel-slide { height: clamp(180px, 28vh, 300px); }
+    .fanzine-list { padding: 0 5vw; }
+    .fanzine-item { grid-template-columns: 1fr; gap: 1rem; }
+    .fanzine-cover { grid-row: auto; width: 100%; max-width: 220px; }
+    .fanzine-download { justify-self: start; }
     .form { padding: 0 5vw; }
     .form-row { grid-template-columns: 1fr; gap: 0.8rem; padding: 1.5rem 0; }
     #footer { padding: 6vh 5vw 3vh; }
@@ -511,4 +598,5 @@ body.menu-open #mobile-menu {
         /* On very narrow screens hide the Contact button too — hamburger handles it */
         display: none;
     }
+    .team-grid { grid-template-columns: 1fr; }
 }

@@ -27,7 +27,18 @@ collections:
           - {label: "Testo hero: riga 2 (usa <em>...</em> per il corsivo)", name: "hero_statement_line_2", widget: "string"}
           - {label: "Testo hero: riga 3", name: "hero_statement_line_3", widget: "string"}
           - {label: "Testo 'Scroll to explore'", name: "scroll_cue_text", widget: "string"}
-          - {label: "Testo manifesto (usa <em>...</em> per il corsivo)", name: "manifesto_text", widget: "text"}
+          - {label: "Carosello — didascalia", name: "carousel_caption", widget: "string", required: false}
+          - label: "Carosello immagini (scorrevole)"
+            name: "carousel_images"
+            widget: "list"
+            required: false
+            max: 20
+            label_singular: "Immagine"
+            summary: "{{fields.image}}"
+            hint: "Consigliate 10–20 immagini. Carica, riordina o elimina liberamente."
+            fields:
+              - {label: "Immagine", name: "image", widget: "image"}
+              - {label: "Testo alternativo", name: "alt", widget: "string", required: false}
 
       - label: "Chi Siamo (testo intro)"
         name: "chi-siamo"
@@ -51,19 +62,6 @@ collections:
           - {label: "Numero sezione", name: "section_num", widget: "string"}
           - {label: "Titolo", name: "title_main", widget: "string"}
           - {label: "Testo introduttivo", name: "lead", widget: "text"}
-
-      - label: "Calendario (Coming Soon)"
-        name: "calendario"
-        file: "calendario.md"
-        fields:
-          - {label: "Layout", name: "layout", widget: "hidden", default: "default"}
-          - {label: "Title", name: "title", widget: "hidden", default: "Calendario"}
-          - {label: "Permalink", name: "permalink", widget: "hidden", default: "/calendario/"}
-          - {label: "Numero sezione", name: "section_num", widget: "string"}
-          - {label: "Titolo principale", name: "heading_main", widget: "string"}
-          - {label: "Titolo corsivo", name: "heading_italic", widget: "string"}
-          - {label: "Sottotitolo", name: "subtext", widget: "text"}
-          - {label: "Testo del bottone", name: "cta_text", widget: "string"}
 
       - label: "Contatti"
         name: "contatti"
@@ -109,7 +107,8 @@ collections:
       - {label: "Titolo (prima parte)", name: "title_main", widget: "string", hint: "Es. 'Sentimento'"}
       - {label: "Titolo (parte in corsivo)", name: "title_italic", widget: "string", required: false, hint: "Es. 'carsico' — apparirà in corsivo grigio"}
       - {label: "Anno", name: "year", widget: "number", value_type: "int"}
-      - {label: "Ordine di visualizzazione", name: "order", widget: "number", default: 1, value_type: "int", hint: "1 = prima mostra mostrata"}
+      - {label: "Data della mostra", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD", hint: "Determina l'ordine in archivio: la più recente appare per prima"}
+      - {label: "Ordine di visualizzazione", name: "order", widget: "number", default: 1, value_type: "int", hint: "Non più usato per l'ordinamento (si usa la Data)", required: false}
       - label: "Status"
         name: "status"
         widget: "select"
@@ -120,6 +119,13 @@ collections:
       - {label: "Curatela", name: "curatela", widget: "text", required: false, hint: "Un curatore per riga"}
       - {label: "Immagine principale", name: "hero_image", widget: "image", required: false}
       - {label: "Descrizione della mostra", name: "description", widget: "text", required: false}
+      - label: "PDF della mostra (opzionale)"
+        name: "pdf"
+        widget: "file"
+        required: false
+        media_folder: "/documents"
+        public_folder: "/documents"
+        hint: "Carica un PDF (comunicato, testo critico, catalogo…) — apparirà come pulsante 'Scarica PDF' sotto i dettagli della mostra"
 
       - label: "Artisti"
         name: "artists"
@@ -144,3 +150,25 @@ collections:
               - {label: "Titolo dell'opera", name: "title", widget: "string"}
               - {label: "Anno", name: "year", widget: "string", required: false}
               - {label: "Descrizione dell'opera", name: "description", widget: "text", required: false}
+
+  - name: "testi"
+    label: "Testi"
+    label_singular: "Testo"
+    folder: "_testi"
+    create: true
+    slug: "{{year}}-{{slug}}"
+    identifier_field: title
+    summary: "{{fields.title}} — {{fields.date | date('YYYY')}}"
+    fields:
+      - {label: "Titolo", name: "title", widget: "string", hint: "Es. 'Intervista a Jacopo Martinotti'"}
+      - {label: "Data", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD", hint: "Usata per l'ordinamento (più recente in alto)"}
+      - {label: "Categoria", name: "category", widget: "string", required: false, hint: "Es. 'Intervista', 'Testo critico', 'Materiali'"}
+      - {label: "Descrizione", name: "description", widget: "text", required: false}
+      - {label: "Copertina (opzionale)", name: "cover_image", widget: "image", required: false, media_folder: "/images/uploads", public_folder: "/images/uploads"}
+      - label: "PDF"
+        name: "pdf"
+        widget: "file"
+        required: false
+        media_folder: "/documents"
+        public_folder: "/documents"
+        hint: "Carica il PDF con il testo dell'intervista o altri materiali"

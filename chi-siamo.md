@@ -4,7 +4,7 @@ title: Chi Siamo
 permalink: /chi-siamo/
 section_num: (01) — Il Collettivo
 title_main: Chi
-title_italic_line: siamo.
+title_italic_line: siamo
 lead: "\"Doppie\" nasce all’interno dell’Archivio Giuseppe Terragni
   dall’iniziativa di Chiara Smedile, curatrice dell’archivio, Anna Laura Piana,
   curatrice e collega e di Attilio Terragni, pittore, curatore nonchè
@@ -30,7 +30,7 @@ lead: "\"Doppie\" nasce all’interno dell’Archivio Giuseppe Terragni
     <div class="team-grid">
         {% assign members = site.team | sort: 'order' %}
         {% for member in members %}
-        <article class="team-card{% if forloop.index0 | modulo: 2 == 1 %} offset{% endif %}">
+        <article class="team-card">
             <div class="team-photo">
                 {% if member.photo %}
                     <img src="{{ member.photo | relative_url }}" alt="{{ member.name }}" loading="lazy">
@@ -39,7 +39,6 @@ lead: "\"Doppie\" nasce all’interno dell’Archivio Giuseppe Terragni
                 {% endif %}
             </div>
             <div class="team-info">
-                <span class="mono team-num">— {{ forloop.index | prepend: '0' | slice: -2, 2 }} / {{ forloop.length | prepend: '0' | slice: -2, 2 }}</span>
                 <h3>{{ member.name | newline_to_br }}</h3>
                 <span class="team-role">{{ member.role }}</span>
                 {% if member.bio %}<p class="team-bio">{{ member.bio }}</p>{% endif %}

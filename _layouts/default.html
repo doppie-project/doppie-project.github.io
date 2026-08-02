@@ -73,6 +73,20 @@ window.addEventListener('scroll', () => {
     if (bar) bar.style.width = scrolled + '%';
 }, { passive: true });
 
+// "Leggi di più" toggle for long exhibition descriptions
+document.querySelectorAll('.mostra-desc-wrap').forEach(wrap => {
+    const p = wrap.querySelector('.mostra-desc');
+    const btn = wrap.querySelector('.desc-toggle');
+    if (!p || !btn) return;
+    // If the text fits within the collapsed height, hide the toggle entirely
+    if (p.scrollHeight <= p.clientHeight + 12) { wrap.classList.add('no-toggle'); return; }
+    btn.addEventListener('click', () => {
+        const open = wrap.classList.toggle('open');
+        btn.setAttribute('aria-expanded', open);
+        btn.textContent = open ? 'Chiudi ↑' : 'Leggi di più ↓';
+    });
+});
+
 const obs = new IntersectionObserver(entries => {
     entries.forEach(e => {
         if (e.isIntersecting) {

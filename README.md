@@ -191,12 +191,15 @@ doppie-project.github.io/
 │
 ├── _team/                   # Collection: team member profiles
 ├── _mostre/                 # Collection: exhibitions
+├── _testi/                  # Collection: testi (PDF publications)
 │
-├── index.md                 # Homepage (hero + manifesto)
+├── index.md                 # Homepage (hero + image carousel)
 ├── chi-siamo.md             # Team page (loops _team/)
 ├── mostre.md                # Archive (loops _mostre/ through mostra.html)
-├── calendario.md            # Coming soon
+├── testi.md                 # Testi listing (loops _testi/, PDF downloads)
 ├── contatti.md              # Contact form (POSTs to Google Apps Script)
+│
+├── documents/               # Uploaded PDFs (testi)
 │
 ├── admin/
 │   ├── config.yml           # Decap CMS field definitions

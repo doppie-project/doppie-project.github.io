@@ -38,7 +38,8 @@
 
     <div class="mostra-body">
         <h3 class="mostra-title">
-            {{ include.mostra.title_main }}{% if include.mostra.title_italic %}<br><em>{{ include.mostra.title_italic }}</em>{% endif %}<em style="font-style:normal;color:var(--black);">.</em>
+            {%- comment -%} An empty title_italic ("") is truthy in Liquid — guard against it, otherwise the closing dot drops onto its own line. {%- endcomment -%}
+            {{ include.mostra.title_main }}{% if include.mostra.title_italic and include.mostra.title_italic != "" %}<br><em>{{ include.mostra.title_italic }}</em>{% endif %}<em style="font-style:normal;color:var(--black);">.</em>
         </h3>
         <div class="mostra-body-right">
             <div class="mostra-meta">
@@ -49,8 +50,14 @@
                 <div><span class="mono">Curatela</span><span class="italic">{{ include.mostra.curatela | newline_to_br }}</span></div>
                 {% endif %}
             </div>
+            {% if include.mostra.pdf %}
+            <a class="mostra-pdf" href="{{ include.mostra.pdf | relative_url }}" target="_blank" rel="noopener" download>Scarica PDF ↓</a>
+            {% endif %}
             {% if include.mostra.description %}
-                <p class="mostra-desc">{{ include.mostra.description }}</p>
+                <div class="mostra-desc-wrap">
+                    <p class="mostra-desc">{{ include.mostra.description }}</p>
+                    <button class="desc-toggle mono" type="button" aria-expanded="false">Leggi di più ↓</button>
+                </div>
             {% endif %}
         </div>
     </div>

@@ -1,7 +1,7 @@
 ---
 name: Anna Laura Piana
 role: Curatrice
-order: 3
+order: 2
 photo: /images/uploads/propic.jpeg
 bio: "In seguito alla laurea triennale in Arti Visive presso NABA ha concluso il
   percorso formativo con un Master in Contemporary Art Markets. Il suo percorso

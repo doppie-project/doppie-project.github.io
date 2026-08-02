@@ -14,7 +14,8 @@ lead: "Un progetto itinerante tra Milano e Como: mostre, screenings, eventi..."
         <p class="section-lead">{{ page.lead }}</p>
     </div>
 
-    {% assign mostre = site.mostre | sort: 'order' %}
+    {% comment %} Order exhibitions by date, newest first. {% endcomment %}
+    {% assign mostre = site.mostre | sort: 'date' | reverse %}
     {% for mostra in mostre %}
         {% include mostra.html mostra=mostra index=forloop.index %}
     {% endfor %}
