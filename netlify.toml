@@ -1,8 +1,8 @@
 # Skip Netlify builds when only README.md changed.
 # Netlify skips the build only when this command exits 0.
-# Fail-open: if CACHED_COMMIT_REF is empty (no build cache) or the commit is
-# unreachable (shallow clone), we BUILD — otherwise an empty-var diff compares
-# a commit against its own checkout, always exits 0, and every build is
-# skipped forever (skipped builds never write a cache, so it self-perpetuates).
+# CRITICAL: when there is no build cache, Netlify sets CACHED_COMMIT_REF equal
+# to COMMIT_REF — then any git-diff-based rule sees an empty diff, exits 0, and
+# the build is skipped; skipped builds never write a cache, so every later
+# build skips too. Guard: if the refs are identical, always BUILD.
 [build]
-  ignore = "test -n \"$CACHED_COMMIT_REF\" && git cat-file -e \"$CACHED_COMMIT_REF^{commit}\" 2>/dev/null && git diff --quiet \"$CACHED_COMMIT_REF\" \"$COMMIT_REF\" -- . ':!README.md'"
+  ignore = "test -n \"$CACHED_COMMIT_REF\" && test \"$CACHED_COMMIT_REF\" != \"$COMMIT_REF\" && git diff --quiet \"$CACHED_COMMIT_REF\" \"$COMMIT_REF\" -- . ':!README.md'"
