@@ -4,7 +4,7 @@ title: Chi Siamo
 permalink: /chi-siamo/
 section_num: (01) — Il Collettivo
 title_main: Chi
-title_italic_line: siamo.
+title_italic_line: siamo
 lead: >
   "Doppie" nasce all’interno dell’Archivio Giuseppe Terragni dall’iniziativa di
   Chiara Smedile, curatrice dell’archivio, e di Attilio Terragni, discendente

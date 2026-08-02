@@ -119,6 +119,13 @@ collections:
       - {label: "Curatela", name: "curatela", widget: "text", required: false, hint: "Un curatore per riga"}
       - {label: "Immagine principale", name: "hero_image", widget: "image", required: false}
       - {label: "Descrizione della mostra", name: "description", widget: "text", required: false}
+      - label: "PDF della mostra (opzionale)"
+        name: "pdf"
+        widget: "file"
+        required: false
+        media_folder: "/documents"
+        public_folder: "/documents"
+        hint: "Carica un PDF (comunicato, testo critico, catalogo…) — apparirà come pulsante 'Scarica PDF' sotto i dettagli della mostra"
 
       - label: "Artisti"
         name: "artists"
