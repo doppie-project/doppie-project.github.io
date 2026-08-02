@@ -14,7 +14,8 @@ lead: "Tra Milano e Como: mostre, screenings, eventi"
         <p class="section-lead">{{ page.lead }}</p>
     </div>
 
-    {% assign mostre = site.mostre | sort: 'order' %}
+    {% comment %} Order exhibitions most-recent to oldest (by year, descending). {% endcomment %}
+    {% assign mostre = site.mostre | sort: 'year' | reverse %}
     {% for mostra in mostre %}
         {% include mostra.html mostra=mostra index=forloop.index %}
     {% endfor %}

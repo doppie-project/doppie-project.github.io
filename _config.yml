@@ -8,11 +8,15 @@ collections:
     output: false
   mostre:
     output: false
+  fanzine:
+    output: false
 
 defaults:
   - scope: { path: "", type: team }
     values: { layout: null }
   - scope: { path: "", type: mostre }
+    values: { layout: null }
+  - scope: { path: "", type: fanzine }
     values: { layout: null }
 
 plugins:
