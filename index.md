@@ -10,9 +10,8 @@ hero_statement_line_2: Ogni incontro è <em>un sistema critico e sensibile</em>
 hero_statement_line_3: " <em>creando un ponte tra la città di Milano e la città
   di Como</em>, tra chi abita e chi attraversa."
 scroll_cue_text: Scroll to explore
-manifesto_text: |
-  " <em>Abitare significa lasciare tracce.<em>
-  <em>Nell’intèriur queste tracce vengono messe in rilievo<em> " Walter Benjamin
+manifesto_text: '"Abitare significa lasciare tracce. Nell’intèriur queste tracce
+  vengono messe in rilievo" Walter Benjamin'
 ---
 
 <section id="hero">
