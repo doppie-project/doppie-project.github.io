@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Fanzine
-permalink: /fanzine/
-section_num: (03) — Fanzine
-title_main: Fanzine
+title: Testi
+permalink: /testi/
+section_num: (03) — Testi
+title_main: Testi
 lead: "Testi d'intervista, materiali e pubblicazioni da sfogliare e scaricare in PDF."
 ---
 
@@ -14,7 +14,7 @@ lead: "Testi d'intervista, materiali e pubblicazioni da sfogliare e scaricare in
         <p class="section-lead">{{ page.lead }}</p>
     </div>
 
-    {% assign items = site.fanzine | sort: 'date' | reverse %}
+    {% assign items = site.testi | sort: 'date' | reverse %}
     {% if items.size > 0 %}
     <div class="fanzine-list">
         {% for item in items %}

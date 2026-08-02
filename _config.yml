@@ -8,7 +8,7 @@ collections:
     output: false
   mostre:
     output: false
-  fanzine:
+  testi:
     output: false
 
 defaults:
@@ -16,7 +16,7 @@ defaults:
     values: { layout: null }
   - scope: { path: "", type: mostre }
     values: { layout: null }
-  - scope: { path: "", type: fanzine }
+  - scope: { path: "", type: testi }
     values: { layout: null }
 
 plugins:
