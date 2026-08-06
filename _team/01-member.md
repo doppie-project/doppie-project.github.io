@@ -2,7 +2,7 @@
 name: Chiara Smedile
 role: Curatrice
 order: 1
-photo: https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=2400&auto=format&fit=crop
+photo: /images/uploads/whatsapp-image-2026-07-29-at-19.40.55.jpeg
 bio: >
   Artista visiva con una formazione presso l’Accademia di Belle Arti NABA di
   Milano. Accanto alla ricerca artistica, porta avanti un percorso curatoriale e
