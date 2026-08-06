@@ -1,6 +1,6 @@
 ---
 name: Chiara Smedile
-role: Curatorice
+role: Curatrice
 order: 1
 photo: https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=2400&auto=format&fit=crop
 bio: >
