@@ -31,6 +31,7 @@ description: >
 
 
   Le opere di Cardia e Bonacina ci ricordano che ogni città è un organismo vivo, fatto non solo di cemento e geometrie, ma di corpi, desideri, conflitti e possibilità. Ed è proprio nella capacità di rendere visibile ciò che solitamente resta nascosto che l’arte può ancora aprire uno spazio di trasformazione collettiva. 
+pdf: /documents/a3-primarassegna_1.pdf
 artists:
   - name_first: Edoardo
     name_last: Bonacina
@@ -42,7 +43,7 @@ artists:
           5’50’’
 
 
-          In una “città ideale” interamente razionalista, una giovane ragazza si ritroverà a dover scappare inseguita dai palazzi, dalle architetture e dalle ombre della città stessa che la incalzeranno a tal punto da inghiottirla nelle loro profondità più recondite. Il film intende essere un'analisi dello “spazio razionalista” e di come la progettazione stereometrica ed architettonica dei luoghi pubblici possa essere veicolo di atteggiamenti e pratiche sociali predeterminate da un'entità di “potere”. 
+          In una “città ideale” interamente razionalista, una giovane ragazza si ritroverà a dover scappare inseguita dai palazzi, dalle architetture e dalle ombre della città stessa che la incalzeranno a tal punto da inghiottirla nelle loro profondità più recondite. 
         image: /images/uploads/screenshot-2026-06-13-175846.png
       - description: >-
           Stampa su UV su PVC 100 x 120 cm
@@ -66,14 +67,6 @@ artists:
       rapporto con gli oggetti banali e gli spazi quotidiani.
 
 
-      Edoardo Bonacina ha partecipato a mostre, residenze e programmi di ricerca presso istituzioni e spazi dedicati all’arte contemporanea in Italia e all’estero. Tra le esperienze più recenti figurano la residenza come ricercatore presso ZK/U – Zentrum für Kunst und Urbanistik di Berlino e il laboratorio-residenza *Capriccio* alla Canonica di San Salvatore (2026). Nel 2025 ha esposto a Fabbrica del Vapore con *Notes on Becoming* e a Spazio Gallucci con la bipersonale *Cerchio d’immagine*, oltre a partecipare alla residenza di Dolomiti Contemporanee e alla mostra *Detriti Frammenti Schegge Brecce* presso il Nuovo Spazio di Casso.
-
-
-      Nel 2024 è stato selezionato per *Microclima Variabile*, XXVIII CSAV Artists’ Research Laboratory della Fondazione Antonio Ratti. Tra le precedenti esperienze espositive si segnalano *Riccardo Dalisi. Radicalmente* al MAXXI di Roma, *Voicing the Archive* alla Triennale Milano e *Travelling Gaze* alla Stazione Cadorna (2023), oltre ai progetti *Subterreus* e *Matria* alla Casa del Fascio di Como (2022).
-
-
-      Nel 2026 è finalista del Premio Mila – Fondo Malerba per la Fotografia; nel 2024 ha ricevuto una menzione d’onore al Premio Raccont’Arti – Fotografia Contemporanea.
-
   - name_first: Camilla
     name_last: Cardia
     origin: Cagliari, 1994
@@ -87,18 +80,6 @@ artists:
       conoscitivo. Collabora come direttrice della fotografia in film
       documentari di ricerca sullo spazio urbano e sul paesaggio.
 
-
-      I film di Camilla Cardia sono stati presentati in festival, mostre e rassegne internazionali dedicate al cinema, all’arte contemporanea e all’architettura. Nel 2024 il suo lavoro è stato proiettato presso il Micro-Folie Musée di Hirson, in Francia, nell’ambito di *PANORAMAS*, e ha preso parte alla mostra collettiva *La montagne ça ne grandit pas* presso l’École nationale supérieure d’architecture de Clermont-Ferrand.
-
-
-      Nel 2023 il film *Toujours jamais pareil, encore – Pierre Mabille* è stato presentato all’interno della mostra *Les incroyables histoires des Tarterêts* presso la galleria d’arte di Corbeil-Essonnes, in Francia.
-
-
-      Nel 2022 i suoi lavori sono stati inclusi in importanti contesti espositivi e cinematografici internazionali: *Les incroyables histoires des Tarterêts* è stato proiettato dal Cine-club Hospitalet de Llobregat di Barcellona; *Les traces du vivant* è stato presentato alla Biennale di Architettura e Paesaggio di Versailles; mentre *Le vol* è stato esposto come installazione nella mostra *Promenade loin(g)taine – Les artistes étrangers au fil du Loing* al Château-Musée de Nemours.
-
-
-      Tra le partecipazioni precedenti si segnalano *Seddas de Misa*, selezionato nel 2021 per il Festival Image de Ville di Marsiglia e, nel 2019, per il Sardinia Film Festival, e *Cent Ans*, presentato al Festival International du Cinéma Ethnographique Jean Rouch di Parigi.
-
     works:
       - title: Les incroyables histoires des Tarterêts
         year: "2022"
@@ -106,7 +87,7 @@ artists:
           Animazione, suono, 7’
 
 
-          Il cortometraggio-animato mostra un ritratto del quartiere di edilizia popolare Les Tarterêts attraverso l’esperienza dei ragazzi che lo abitano. I disegni e le voci spontanee de_ protagonist_ ci danno accesso a una ricca articolazione di esperienze che testimoniano le avventure di una generazione confrontata con i temi della migrazione, della discriminazione (subita o inflitta) e del rinnovamento urbano.
+          Il cortometraggio-animato mostra un ritratto del quartiere di edilizia popolare Les Tarterêts attraverso l’esperienza dei ragazzi che lo abitano. 
 
 
           Video creato in residenza con l’Istituto Léopold Sédar Senghor, Corbeil-Essonnes. Con il supporto dell’Agence Nationale pour la cohesion des territoires, la regione Île-de-France, il dipartimento dell’Essonne, la città di Corbeil-Essonnes.
