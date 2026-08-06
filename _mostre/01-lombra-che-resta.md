@@ -34,6 +34,7 @@ description: >-
 
 
   di Chiara Smedile
+pdf: /documents/testo-critico-e-dialogo-l-ombra-che-resta.pdf
 artists:
   - name_first: Jacopo
     name_last: Martinotti
