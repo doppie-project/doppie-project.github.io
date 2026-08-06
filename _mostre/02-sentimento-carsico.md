@@ -20,6 +20,7 @@ description: >
 
 
   Dentro il Novocomum, queste sculture non interrompono il ritmo dell’edificio — lo prolungano. L’acqua carsica entra nelle crepe, riporta movimento dove il calcestruzzo si crede immobile. È una sorta di riconciliazione: la materia viva e quella costruita si riconoscono, si respirano a vicenda. Forse ogni archivio è una grotta. Un corpo che custodisce il tempo, che lo protegge come si fa con una ferita. Le opere di Edoardo lo attraversano in silenzio, riattivando la sua memoria sotterranea. Così la pietra torna a essere pensiero, e il pensiero, lentamente, ritorna terra. Forse la natura non si è mai davvero ritratta dall’architettura, ma la attraversa in silenzio, rivelandola a chi sa ascoltare.
+pdf: /documents/a3-edoardo-manzoni-.pdf
 artists:
   - name_first: Edoardo
     name_last: Manzoni
