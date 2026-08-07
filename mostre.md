@@ -4,7 +4,7 @@ title: Mostre
 permalink: /mostre/
 section_num: (02) — Archivio
 title_main: Mostre
-lead: "Un progetto itinerante tra Milano e Como: mostre, screenings, eventi..."
+lead: " "
 ---
 
 <section id="mostre">
