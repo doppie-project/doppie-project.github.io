@@ -11,6 +11,6 @@ bio: Riccardo Longo (Como, 2001) è artista,  curatore e ricercatore. Si laurea
   attività di archivista e guida presso l'Archivio Terragni di Como, dove ha
   sede anche il suo studio d'arte.
 email: ""
-social_link: https://instagram.com/
+social_link: https://www.instagram.com/mafarka2222.art?igsh=MjVieWtkN3Rxdmpw
 social_label: Instagram
 ---
