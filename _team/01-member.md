@@ -1,6 +1,6 @@
 ---
 name: Chiara Smedile
-role: Curatrice
+role: Curatrice \ Ricercatrice
 order: 2
 photo: /images/uploads/whatsapp-image-2026-07-29-at-19.40.55.jpeg
 bio: >-
