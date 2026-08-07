@@ -59,6 +59,12 @@ artists:
         description: |-
           Installazione, polvere di marmo nero ebano.
           Dimensioni variabili.
+      - image: /images/uploads/screenshot-2026-08-07-162436.png
+        title: 35 mm DEL MIO LETTO
+        year: "2022"
+        description: |-
+          29,7 x 42 cm
+          Stampa su carta A3, serie di 200
   - name_first: Giorgio
     name_last: Mattia
     origin: Frosinone, 1997
