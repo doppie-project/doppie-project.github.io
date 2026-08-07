@@ -1,6 +1,6 @@
 ---
 name: Riccardo Longo
-role: Responsabile d'archivio
+role: Ricercatore
 order: 4
 photo: /images/uploads/whatsapp-image-2026-08-07-at-16.17.43.jpeg
 bio: Riccardo Longo (Como, 2001) è artista,  curatore e ricercatore. Si laurea
