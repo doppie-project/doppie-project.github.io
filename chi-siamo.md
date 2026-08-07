@@ -5,19 +5,15 @@ permalink: /chi-siamo/
 section_num: (01) — Il Collettivo
 title_main: Chi
 title_italic_line: siamo
-lead: "\"Doppie\" nasce all’interno dell’Archivio Giuseppe Terragni
-  dall’iniziativa di Chiara Smedile, curatrice dell’archivio, Anna Laura Piana,
-  curatrice e collega e di Attilio Terragni, pittore, curatore nonchè
-  discendente dell’architetto. Doppie nasce da una riflessione sull’eredità
-  culturale e progettuale dell'architetto G. Terragni e sulle funzioni del
-  dispositivo \"archivio\". Doppie nasce per soddisfare l’esigenza di attivare
-  nuovi dialoghi tra luoghi, pratiche artistiche e contesti di ricerca,
-  costruendo un ponte tra Milano e Como. Ogni mostra è un incontro, un sguardo
-  che genera tensioni, consonanze, visioni condivise. Il “doppio” diventa un
-  metodo per interrogarsi sul senso dell’abitare, sul linguaggio della forma,
-  sulla materia e sull’architettura come struttura fisica e simbolica. Il
-  progetto guarda in particolare a giovani artisti emergenti che indagano il
-  rapporto tra corpo e spazio, valorizzando pratiche ibride e sperimentali."
+lead: >-
+  Doppie nasce dal dialogo tra Attilio A. Terragni e Chiara Smedile come
+  progetto che indaga il doppio come dispositivo curatoriale.
+
+  Il doppio diventa un metodo di lavoro: due luoghi, due artisti, due storie e punti di vista differenti entrano in dialogo attraverso pratiche che interrogano l’abitare, la materia, il corpo e l’architettura come struttura fisica e simbolica.
+
+  Ogni appuntamento invita giovani artisti a confrontarsi con i due spazi attraverso lavori inediti, costruendo connessioni tra Milano e Como, tra Spazio Milesi e Spazio Novocomum.
+
+  Al progetto collaborano la curatrice Anna Laura Piana e i ricercatori Riccardo Longo, e Margherita Mapelli contribuendo alla ricerca, alla cura e allo sviluppo delle diverse iniziative. Le mostre realizzate negli spazi coinvolgono inoltre i rispettivi team nelle fasi di produzione e allestimento.
 ---
 
 <section id="chi-siamo">
