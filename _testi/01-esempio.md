@@ -1,11 +1,7 @@
 ---
-title: "Intervista — Esempio"
-date: 2026-01-01
-category: Intervista
-description: >-
-  Voce di esempio dei Testi. Sostituisci o elimina questa voce dal CMS
-  (sezione "Testi"): carica un PDF con il testo dell'intervista o altri
-  materiali, aggiungi un titolo e una descrizione, e apparirà qui.
-# cover_image: /images/uploads/esempio.jpg   # opzionale
-# pdf: /documents/esempio.pdf                 # carica il PDF dal CMS
+title: Restano le ombre. Inaugura Doppie Project a Milano.
+date: 2025-11-05
+category: Articolo
+description: Articolo di Irene Follador per Juliet Magazine.
+pdf: /documents/ombra-che-resta_juliet-magazine_irene-follador.pdf
 ---
