@@ -3,7 +3,7 @@ title_main: L'ombra che resta
 title_italic: ""
 year: 2025
 date: 2025-10-23
-order: 1
+order: 3
 status: Concluso
 location: Spazio Milesi, Milano
 location_short: Milano
