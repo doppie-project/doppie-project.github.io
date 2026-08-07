@@ -58,17 +58,14 @@ artists:
         title: Iper-Paesaggio
         year: "2023"
         image: /images/uploads/c7695d1f-b2de-4cbc-b8c0-b034e01a2ad6.jpg
-    bio: >+
+    bio: >
       Edoardo Bonacina (Como, 2001) è un giovane artista attivo tra Como e
       Milano, ha conseguito la laurea Magistrale in Arti Visive e Studi
-      Curatoriali presso NABA (Nuova Accademia di Belle Arti Milano). Lavora
-      principalmente con la fotografia di grande formato e la videoarte,
-      esplorando l’ambiguità e le possibilità di détournement intrinseche alle
-      immagini meccaniche. Attraverso questo straniamento percettivo, il suo
-      lavoro mira a sovvertire i codici interpretativi riconsiderando il nostro
-      rapporto con gli oggetti banali e gli spazi quotidiani.
-
-
+      Curatoriali presso NABA. Lavora principalmente con la fotografia di grande
+      formato e la videoarte, esplorando l’ambiguità e le possibilità di
+      détournement intrinseche alle immagini meccaniche. Il suo lavoro mira a
+      sovvertire i codici interpretativi riconsiderando il nostro rapporto con
+      gli oggetti banali e gli spazi quotidiani. 
   - name_first: Camilla
     name_last: Cardia
     origin: Cagliari, 1994
