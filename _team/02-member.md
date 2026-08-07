@@ -10,6 +10,6 @@ bio: "Attilio A. Terragni dal 1988 è architetto e artista impegnato ad
   DIA Dessau Institute for architecture ed è stato visiting professor in
   Bogotà,  Barcellona, Lipsia, Philadelphia etc. "
 email: ""
-social_link: ""
-social_label: ""
+social_link: https://www.instagram.com/atti_terragni?igsh=MW41ZXd4aDAzeWEwbg==
+social_label: instagram
 ---
