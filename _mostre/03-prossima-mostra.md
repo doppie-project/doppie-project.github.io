@@ -1,5 +1,5 @@
 ---
-title_main: PHANTASMATA
+title_main: "PHANTASMATA #1"
 title_italic: '"Nulla deve essere opaco"'
 year: 2026
 date: 2026-06-13
@@ -7,7 +7,9 @@ order: 3
 status: Concluso
 location: Como, Nuovocomum
 location_short: Como
-curatela: Anna Laura Piana
+curatela: |-
+  Anna Laura Piana,
+  Chiara Smedile
 hero_image: /images/uploads/progetto-senza-titolo.jpg
 description: >
   Nella pratica di Giuseppe Terragni l’architettura non è uno spazio freddo e
