@@ -4,11 +4,8 @@ permalink: /
 hero_top_left: Est. MMXXV
 hero_top_center: Collettivo — Milano / Como
 hero_statement_line_1: Il doppio come dispositivo curatoriale.
-hero_statement_line_2: Ogni incontro è <em>un sistema critico e sensibile</em>
-  dove opere, pensieri e ambienti costruiscono nuove possibilità di esperienza
-  collettiva,
-hero_statement_line_3: " <em>creando un ponte tra la città di Milano e la città
-  di Como</em>, tra chi abita e chi attraversa."
+hero_statement_line_2: Opere, pensieri e spazi si incontrano tra Como e Milano,
+hero_statement_line_3: <em> tra chi abita e chi attraversa <em>
 scroll_cue_text: Scroll to explore
 carousel_caption: Frammenti — Milano / Como
 carousel_images:
