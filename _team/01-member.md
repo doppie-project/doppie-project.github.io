@@ -9,7 +9,7 @@ bio: >
   organizzativo e ha dato vita al progetto Doppie nato dal suo lavoro come
   Exhibition Assistant presso l’Archivio Giuseppe Terragni. 
 
-  Attualmente lavora come freelancer scrivendo per riviste di settore e come editor per diversi artisti. Lavora come assistente di galleria presso Federico Rui. Ha lavorato per due anni come assistente personale nello studio di Luca Vitone. Ha maturato inoltre esperienze nella mediazione culturale, prima presso la Galleria Diaz di Amsterdam, presso la Galleria UNA a Milano e oggi alla Fondazione Prada di Milano.
+  Attualmente lavora come freelancer scrivendo per riviste di settore e come editor per diversi artisti tra cui Marcello Maloberti. Ha lavorato per due anni come assistente personale nello studio di Luca Vitone. Ha maturato inoltre esperienze nella mediazione culturale, prima presso la Galleria Diaz di Amsterdam, e oggi alla Fondazione Prada di Milano. E' stata assistente di galleria presso la Galleria Federico Rui e UNA Milano .
 email: info.doppieproject@gmai.com
 social_link: https://www.instagram.com/chiara_sme?igsh=MXY5cHAydms0eTVwdw==
 social_label: Instagram
