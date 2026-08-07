@@ -8,5 +8,6 @@ bio: Margherita Mapelli (1999) ha conseguito la laurea in Scienze dei Beni
   intraprendendo un Master in Management dell’Arte e dei Beni Culturali presso
   la RCS Academy, con l’obiettivo di approfondire le pratiche di organizzazione
   e promozione culturale.
+social_link: https://www.instagram.com/_margheritamapelli?igsh=bml3d3FtcnRza3Y1
 social_label: Instagram
 ---
