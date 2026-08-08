@@ -11,12 +11,16 @@ curatela: |-
   Anna Laura Piana,
   Chiara Smedile
 hero_image: /images/uploads/progetto-senza-titolo.jpg
-description: "Le opere di Camilla Cardia ed Edoardo Bonacina descrivono lo
-  spazio della città come una creatura che intreccia il proprio respiro con
-  quello dei suoi abitanti. Se la creatura evocata da Camilla Cardia appare come
-  un terreno continuamente alimentato dalla vitalità dei suoi giovani abitanti e
-  dai loro sogni, quella di Edoardo Bonacina si manifesta invece come una
-  presenza austera e monumentale, un monito costante a ciò che è stato.
+description: "Nella prima edizione della rassegna film Phantasmata vediamo le
+  opere di Camilla Cardia ed Edoardo Bonacina che descrivono lo spazio della
+  città come una creatura che intreccia il proprio respiro con quello dei suoi
+  abitanti.\ 
+
+
+  Se la creatura evocata da Camilla Cardia appare come un terreno
+  continuamente alimentato dalla vitalità dei suoi giovani abitanti e dai loro
+  sogni, quella di Edoardo Bonacina si manifesta invece come una presenza
+  austera e monumentale, un monito costante a ciò che è stato.
 
   \  "
 pdf: /documents/a3-primarassegna_1.pdf
