@@ -25,19 +25,13 @@ artists:
   - name_first: Edoardo
     name_last: Manzoni
     origin: ""
-    bio: >
-      Edoardo Manzoni (1993). Vive e lavora a Milano. La sua ricerca si sviluppa
-      dal contesto rurale nel quale è cresciuto. Il mondo contadino ha stimolato
-      il suo interesse verso tematiche quali il naturale e l’artificiale,
-      l’umano e l’animale. I suoi ultimi lavori riflettono sul rapporto tra
-      seduzione e violenza, partendo dalla relazione che l’uomo e l’animale
-      hanno instaurato attraverso la pratica della caccia e i processi di
-      inganno e nascondimento che questa presuppone. L’obiettivo è di riflettere
-      sull’animalità che accompagna l’umano, dai tempi profondi alla
-      contemporaneità.
-
-
-      I suoi lavori sono stati esposti in diversi contesti, tra i quali: Fondazione La Quadriennale, Roma; Lunetta11, Mombarcaro; Renata Fabbri, Milano; PAV, Torino, Vin Vin, Vienna, The Address, Brescia; Art Noble, Milano; Fondazione Antonio Ratti, Como; Triennale, Milano; Sonnenstube, Lugano; Fondazione Pini, Milano. Dal 2017 fa parte di Altalena, un progetto di ricerca indipendente. Nel 2018 fonda il progetto Residenza La Fornace invitando differenti artisti a entrare in contatto e a confrontarsi con la cascina dove è cresciuto e dove tutt’ora porta avanti la sua ricerca artistica.
+    bio: Edoardo Manzoni (1993) vive e lavora a Milano. La sua ricerca nasce dal
+      contesto rurale in cui è cresciuto e indaga il rapporto tra umano e
+      animale, naturale e artificiale, seduzione e violenza, con particolare
+      attenzione alla pratica della caccia. Ha esposto alla Quadriennale di
+      Roma, Triennale Milano, PAV Torino e Fondazione Antonio Ratti. Collabora
+      con Lunetta11, dal 2017 fa parte di Altalena e nel 2018 fonda Residenza La
+      Fornace, progetto di ricerca e ospitalità artistica.
     works:
       - image: /images/uploads/11.jpg
         title: Allodoliere
