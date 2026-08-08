@@ -58,27 +58,23 @@ artists:
         title: Iper-Paesaggio
         year: "2023"
         image: /images/uploads/c7695d1f-b2de-4cbc-b8c0-b034e01a2ad6.jpg
-    bio: >
-      Edoardo Bonacina (Como, 2001) è un giovane artista attivo tra Como e
-      Milano, ha conseguito la laurea Magistrale in Arti Visive e Studi
-      Curatoriali presso NABA. Lavora principalmente con la fotografia di grande
-      formato e la videoarte, esplorando l’ambiguità e le possibilità di
-      détournement intrinseche alle immagini meccaniche. Il suo lavoro mira a
-      sovvertire i codici interpretativi riconsiderando il nostro rapporto con
-      gli oggetti banali e gli spazi quotidiani. 
+    bio: Edoardo Bonacina (Como, 2001) è un artista laureato in Arti Visive e Studi
+      Curatoriali alla NABA. Lavora con fotografia di grande formato e
+      videoarte, indagando l’ambiguità delle immagini e il rapporto con oggetti
+      e spazi quotidiani. Nel 2026 è ricercatore allo ZK/U di Berlino ed è
+      finalista del Premio Mila. Ha esposto al MAXXI di Roma, a Fabbrica del
+      Vapore e Spazio Gallucci, e partecipato a Dolomiti Contemporanee. Nel 2024
+      è selezionato per il CSAV di Fondazione Ratti.
   - name_first: Camilla
     name_last: Cardia
     origin: Cagliari, 1994
-    bio: >+
-      Camilla Cardia (Cagliari, 1994) si è laureata in fotografia in fotografia
-      presso l’École nationale supérieure Louis-Lumière, Francia risiede ora a
-      Parigi. La sua pratica si serve principalmente dell’immagine fissa e in
-      movimento per indagare la percezione dello spazio e la relazione che
-      occupanti instaurano con esso. La sua ricerca si avvale di pratiche di
-      educazione popolare affermando il processo artistico come fatto ludico e
-      conoscitivo. Collabora come direttrice della fotografia in film
-      documentari di ricerca sullo spazio urbano e sul paesaggio.
-
+    bio: Camilla Cardia (Cagliari, 1994) è un’artista e filmmaker residente a
+      Parigi, diplomata in fotografia all’École nationale supérieure
+      Louis-Lumière. Lavora con immagine fissa e in movimento, indagando spazio,
+      paesaggio e relazione tra luoghi e abitanti. Nel 2024 espone al
+      Micro-Folie Musée di Hirson e all’ENS Architecture di Clermont-Ferrand. I
+      suoi film sono stati presentati alla Biennale di Architettura e Paesaggio
+      di Versailles, al Festival Image de Ville e al Festival Jean Rouch.
     works:
       - title: Les incroyables histoires des Tarterêts
         year: "2022"
