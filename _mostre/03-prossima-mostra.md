@@ -52,9 +52,9 @@ artists:
       Curatoriali alla NABA. Lavora con fotografia di grande formato e
       videoarte, indagando l’ambiguità delle immagini e il rapporto con oggetti
       e spazi quotidiani. Nel 2026 è ricercatore allo ZK/U di Berlino ed è
-      finalista del Premio Mila. Ha esposto al MAXXI di Roma, a Fabbrica del
-      Vapore e Spazio Gallucci, e partecipato a Dolomiti Contemporanee. Nel 2024
-      è selezionato per il CSAV di Fondazione Ratti.
+      vincitore del Premio Mila 2026. Ha esposto al MAXXI di Roma, a Fabbrica
+      del Vapore e Spazio Gallucci, e partecipato a Dolomiti Contemporanee. Nel
+      2024 è stato selezionato per il CSAV di Fondazione Ratti.
   - name_first: Camilla
     name_last: Cardia
     origin: Cagliari, 1994
