@@ -2,26 +2,21 @@
 layout: default
 permalink: /
 hero_top_left: Est. MMXXV
-hero_top_center: Collettivo — Milano / Como
+hero_top_center: Collettivo — Como / Milano
 hero_statement_line_1: Il doppio come dispositivo curatoriale.
-hero_statement_line_2: Ogni incontro è <em>un sistema critico e sensibile</em>
-  dove opere, pensieri e ambienti costruiscono nuove possibilità di esperienza
-  collettiva,
-hero_statement_line_3: " <em>creando un ponte tra la città di Milano e la città
-  di Como</em>, tra chi abita e chi attraversa."
+hero_statement_line_2: Opere, pensieri e spazi si incontrano tra Como e Milano,
+hero_statement_line_3: <em> tra chi abita e chi attraversa <em>
 scroll_cue_text: Scroll to explore
-carousel_caption: Frammenti — Milano / Como
+carousel_caption: Frammenti — Como / Milano
 carousel_images:
-  - image: /images/uploads/banner_lombracheresta.jpg
-  - image: /images/uploads/opening_lombracheresta_spaziomilesi_251023-62.jpg
   - image: /images/uploads/opening_lombracheresta_spaziomilesi_251023-46.jpg
   - image: /images/uploads/mostra_lombracheresta_spaziomilesi_251023-04.jpg
-  - image: /images/uploads/banner.png
-  - image: /images/uploads/616a8732.jpg
+  - image: /images/uploads/009-cdf5-iparisi.tiff.tif
   - image: /images/uploads/7l9a0814.jpg
   - image: /images/uploads/7l9a0944.jpg
-  - image: /images/uploads/progetto-senza-titolo.jpg
-  - image: /images/uploads/img_0131.jpg
+  - image: /images/uploads/6.jpg
+  - image: /images/uploads/001-cdf5-iparisi.tiff.jpg
+  - image: /images/uploads/14.jpg
 ---
 
 <section id="hero">
