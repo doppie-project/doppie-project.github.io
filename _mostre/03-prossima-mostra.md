@@ -10,7 +10,7 @@ location_short: Como
 curatela: |-
   Anna Laura Piana,
   Chiara Smedile
-hero_image: /images/uploads/progetto-senza-titolo.jpg
+hero_image: ""
 description: "Nella prima edizione della rassegna film Phantasmata vediamo le
   opere di Camilla Cardia ed Edoardo Bonacina che descrivono lo spazio della
   città come una creatura che intreccia il proprio respiro con quello dei suoi
