@@ -34,8 +34,9 @@
     <div class="artist-works {{ works_class }}">
         {% for work in include.artist.works %}
             <figure>
-                {% if work.image %}
-                    <img src="{{ work.image | relative_url }}" alt="{{ work.title }}" loading="lazy">
+                {%- comment -%} "" is truthy in Liquid; titles may contain quotes — escape attribute values. {%- endcomment -%}
+                {% if work.image and work.image != "" %}
+                    <img src="{{ work.image | relative_url }}" alt="{{ work.title | escape }}" loading="lazy">
                 {% endif %}
                 <figcaption>
                     <span class="work-title-line">
