@@ -25,16 +25,20 @@
         <span>{{ include.mostra.location }}</span>
     </div>
 
+    {%- comment -%}
+      Empty strings ("") are truthy in Liquid — guard every optional field with != "".
+      Titles may contain double quotes, so attribute values must go through | escape,
+      otherwise kramdown sees a malformed tag and renders it as escaped literal text.
+      When no hero image is set, the hero block is omitted entirely.
+    {%- endcomment -%}
+    {% if include.mostra.hero_image and include.mostra.hero_image != "" %}
     <div class="mostra-hero">
-        {% if include.mostra.hero_image %}
-            <img src="{{ include.mostra.hero_image | relative_url }}" alt="{{ include.mostra.title_main }} {{ include.mostra.title_italic }}" loading="lazy">
-        {% else %}
-            <img src="https://images.unsplash.com/photo-1518998053901-5348d3961a04?q=80&w=2400&auto=format&fit=crop" alt="{{ include.mostra.title_main }}" loading="lazy">
-        {% endif %}
-        {% if include.mostra.location_short %}
+        <img src="{{ include.mostra.hero_image | relative_url }}" alt="{{ include.mostra.title_main | append: ' ' | append: include.mostra.title_italic | strip | escape }}" loading="lazy">
+        {% if include.mostra.location_short and include.mostra.location_short != "" %}
             <div class="mostra-visual-tag">{{ include.mostra.location_short }}</div>
         {% endif %}
     </div>
+    {% endif %}
 
     <div class="mostra-body">
         <h3 class="mostra-title">
