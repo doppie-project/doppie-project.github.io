@@ -17,7 +17,7 @@ collections:
 
       - label: "Homepage"
         name: "homepage"
-        file: "index.md"
+        file: "index.html"
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "default"}
           - {label: "Permalink", name: "permalink", widget: "hidden", default: "/"}
@@ -42,7 +42,7 @@ collections:
 
       - label: "Chi Siamo (testo intro)"
         name: "chi-siamo"
-        file: "chi-siamo.md"
+        file: "chi-siamo.html"
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "default"}
           - {label: "Title", name: "title", widget: "hidden", default: "Chi Siamo"}
@@ -54,7 +54,7 @@ collections:
 
       - label: "Mostre (testo intro)"
         name: "mostre-index"
-        file: "mostre.md"
+        file: "mostre.html"
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "default"}
           - {label: "Title", name: "title", widget: "hidden", default: "Mostre"}
@@ -65,7 +65,7 @@ collections:
 
       - label: "Contatti"
         name: "contatti"
-        file: "contatti.md"
+        file: "contatti.html"
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "default"}
           - {label: "Title", name: "title", widget: "hidden", default: "Contatti"}

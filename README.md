@@ -193,11 +193,11 @@ doppie-project.github.io/
 ├── _mostre/                 # Collection: exhibitions
 ├── _testi/                  # Collection: testi (PDF publications)
 │
-├── index.md                 # Homepage (hero + image carousel)
-├── chi-siamo.md             # Team page (loops _team/)
-├── mostre.md                # Archive (loops _mostre/ through mostra.html)
-├── testi.md                 # Testi listing (loops _testi/, PDF downloads)
-├── contatti.md              # Contact form (POSTs to Google Apps Script)
+├── index.html               # Homepage (hero + image carousel)
+├── chi-siamo.html             # Team page (loops _team/)
+├── mostre.html                # Archive (loops _mostre/ through mostra.html)
+├── testi.html               # Testi listing (loops _testi/, PDF downloads)
+├── contatti.html              # Contact form (POSTs to Google Apps Script)
 │
 ├── documents/               # Uploaded PDFs (testi)
 │
