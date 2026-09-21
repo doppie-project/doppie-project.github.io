@@ -13,4 +13,12 @@ carousel_images:
   - image: /images/uploads/img_4912-1-.jpg
   - image: /images/uploads/immagine-whatsapp-2025-10-22-ore-17.03.33_a863c709.jpg
     alt: Giorgio Mattia
+  - image: /images/uploads/screenshot-2026-09-21-151946.jpg
+  - image: /images/uploads/immagine-whatsapp-2025-10-22-ore-17.03.34_1a2a397f.jpg
+    alt: Giorgio Mattia
+  - image: /images/uploads/novoconum.jpg
+  - image: /images/uploads/img_9410.jpg
+    alt: Camilla Cardia
+  - image: /images/uploads/immagine-whatsapp-2025-10-22-ore-19.38.28_ad4002a9.jpg
+    alt: Jacopo Martinotti
 ---
