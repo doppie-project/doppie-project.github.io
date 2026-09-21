@@ -17,7 +17,7 @@ description: >
   tempo. Tra forme organiche, richiami animali e tracce del paesaggio, la mostra
   apre un dialogo con il Novocomum, lasciando affiorare una tensione continua
   tra ciò che è costruito e ciò che, ostinatamente, continua a vivere.
-pdf: /documents/a3-edoardo-manzoni-.pdf
+pdf: /documents/a3-edoardo-manzoni_251109.pdf
 artists:
   - name_first: Edoardo
     name_last: Manzoni
