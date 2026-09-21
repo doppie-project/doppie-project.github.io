@@ -21,4 +21,8 @@ carousel_images:
     alt: Camilla Cardia
   - image: /images/uploads/immagine-whatsapp-2025-10-22-ore-19.38.28_ad4002a9.jpg
     alt: Jacopo Martinotti
+  - image: /images/uploads/6.jpg
+  - image: /images/uploads/c7695d1f-b2de-4cbc-b8c0-b034e01a2ad6.jpg
+    alt: Edoardo Bonacina
+  - image: /images/uploads/14.jpg
 ---
